@@ -884,8 +884,11 @@ template:
       - name: "Battery time remaining"
         unique_id: house_battery_time_remaining
         state: >
-          {# this value is calculated in the template sensor above #}
-          {% set power = max(0, states('sensor.house_total_battery_power_in_w') | float(0)) %}
+          {# This reads the sensor above. Its entity_id comes from `name:` ("House Total
+             Battery Power"), not from `unique_id:` - so it is sensor.house_total_battery_power.
+             Reading the unique_id spelling always yielded 0, which left this sensor permanently
+             reporting "Charging". #}
+          {% set power = max(0, states('sensor.house_total_battery_power') | float(0)) %}
           {# this input_number is calculated in the Node-RED flows #}
           {% set capacity_kwh = states('input_number.house_battery_total_available_energy') | float(0) %}
           {# display #}
