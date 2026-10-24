@@ -1084,16 +1084,16 @@
     {
         "id": "176d29a.6f648d6",
         "type": "server",
-        "name": "Home Assistant",
+        "name": "HA System",
         "addon": true,
         "rejectUnauthorizedCerts": true,
         "ha_boolean": [],
-        "connectionDelay": false,
+        "connectionDelay": true,
         "cacheJson": false,
-        "heartbeat": false,
-        "heartbeatInterval": "",
+        "heartbeat": true,
+        "heartbeatInterval": "30",
         "statusSeparator": "",
-        "enableGlobalContextStore": false
+        "enableGlobalContextStore": true
     },
     {
         "id": "dbdb042c676a1dfb",
