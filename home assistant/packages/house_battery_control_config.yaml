@@ -41,3 +41,40 @@
 #     unit_of_measurement: "W"
 #     device_class: "power"
 #     state_class: "measurement"
+
+# -------------------------------------------------------------------------------------------------
+# Refresh HBC's price data when the data BEHIND the selected tariff source changes (2026-10-31)
+# -------------------------------------------------------------------------------------------------
+# The Dynamic flow caches the price list per tariff data source and otherwise only re-reads it on
+# its 15-min tick or when an HBC setting changes. Its generic hook for "the source data changed,
+# fetch again" is the HA event `hbc_refresh_energy_prices`; the flow itself knows nothing about
+# any particular integration. Source-specific triggers belong here, in installation config.
+#
+# Grid Clock: the "Grid Clock" option reads sensor.grid_clock_default_prices, which follows the
+# default bidding zone chosen in the Grid Clock integration. Picking another zone changes the
+# sensor's `zone` attribute; that fires the event, so the Price intervals chart shows the new
+# zone at once. Triggering on to-state only (not from/to) also covers an integration reload,
+# where the sensor briefly has no attributes (NL -> none -> BE): the "none" step is skipped by
+# the condition, the step to BE fires.
+automation:
+  - id: hbc_refresh_prices_grid_clock_zone
+    alias: "HBC: refresh prices when the Grid Clock default zone changes"
+    mode: restart
+    triggers:
+      - trigger: state
+        entity_id: sensor.grid_clock_default_prices
+        attribute: zone
+    conditions:
+      - condition: state
+        entity_id: input_select.house_battery_strategy_dynamic_data_source
+        state: "Grid Clock"
+      - condition: template
+        value_template: >-
+          {{ trigger.to_state is not none
+             and trigger.to_state.attributes.zone is defined
+             and (trigger.to_state.attributes.prices | default([]) | count) > 0 }}
+    actions:
+      - event: hbc_refresh_energy_prices
+        event_data:
+          source: Grid Clock
+          zone: "{{ trigger.to_state.attributes.zone }}"

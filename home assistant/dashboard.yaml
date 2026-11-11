@@ -1773,61 +1773,132 @@ views:
             state_color: false
             unit: cent / kWh
             attribute: gross_spread
-          - type: custom:apexcharts-card
-            header:
-              show: true
-              show_states: false
-              title: Price intervals
-            graph_span: 48h
-            span:
-              start: day
-            now:
-              show: true
-              color: '#009ac7'
-              label: Now
-            apex_config:
-              plotOptions:
-                bar:
-                  borderRadius: 2
-                  columnWidth: 90%
-              legend:
-                show: false
-              xaxis:
-                type: datetime
-                labels:
-                  datetimeUTC: false
-                  format: HH:mm
-                  rotate: -45
-                  rotateAlways: true
-              yaxis:
-                decimalsInFloat: 0
-                title:
-                  text: cent / kWh
-              tooltip:
-                x:
-                  format: ddd dd MMM HH:mm
-            series:
-              - entity: sensor.hbc_energy_prices_data
-                name: Prijs
-                type: column
-                float_precision: 1
-                show:
-                  legend_value: false
-                data_generator: |
-                  const marks = entity.attributes.marks || [];
-                  const colours = { high: '#ff9800', low: '#4caf50' };
-                  const now = Date.now();
-                  return marks.map(iv => {
-                    const s = new Date(iv.start).getTime();
-                    const e = new Date(iv.end).getTime();
-                    return {
-                      x: s,
-                      y: iv.price,
-                      fillColor: (now >= s && now < e)
-                        ? '#009ac7'
-                        : (colours[iv.mark] || '#9e9e9e')
-                    };
-                  });
+          # Price intervals: title + 'Fixed costs' toggle (tap the badge) on one line at the top
+          # of the chart, drawn as ONE card - a vertical-stack whose own frame is styled as a
+          # card (card_mod) and whose two cards have their frames removed.
+          - type: vertical-stack
+            card_mod:
+              style: |
+                #root {
+                  background: var(--ha-card-background, var(--card-background-color, white));
+                  border-radius: var(--ha-card-border-radius, 12px);
+                  border: var(--ha-card-border-width, 1px) solid var(--ha-card-border-color, var(--divider-color, #e0e0e0));
+                  box-shadow: var(--ha-card-box-shadow, none);
+                  overflow: hidden;
+                  --vertical-stack-card-gap: 0px;
+                  gap: 0 !important;
+                }
+            cards:
+              - type: heading
+                heading: Price intervals
+                heading_style: title
+                icon: mdi:chart-bar
+                card_mod:
+                  style: |
+                    ha-card { padding: 12px 16px 0 16px !important; }
+                badges:
+                  - type: entity
+                    entity: input_boolean.hbc_price_chart_show_fixed_costs
+                    name: Fixed cost per kWh
+                    show_state: true
+                    state_content:
+                      - name
+                      - state
+                    show_icon: true
+                    color: '#ce93d8'
+                    tap_action:
+                      action: toggle
+              - type: custom:apexcharts-card
+                card_mod:
+                  style: |
+                    ha-card { background: none !important; border: none !important; box-shadow: none !important; }
+                header:
+                  show: false
+                graph_span: 48h
+                span:
+                  start: day
+                stacked: true
+                now:
+                  show: true
+                  color: '#009ac7'
+                  label: Now
+                apex_config:
+                  # Shown when every series is empty: the selected tariff data source
+                  # delivered no prices (the Dynamic flow then publishes an empty set).
+                  noData:
+                    text: No Data Available
+                    align: center
+                    verticalAlign: middle
+                    style:
+                      fontSize: 16px
+                  plotOptions:
+                    bar:
+                      borderRadius: 2
+                      columnWidth: 90%
+                  legend:
+                    show: false
+                  xaxis:
+                    type: datetime
+                    labels:
+                      datetimeUTC: false
+                      format: HH:mm
+                      rotate: -45
+                      rotateAlways: true
+                  yaxis:
+                    decimalsInFloat: 0
+                    title:
+                      text: cent / kWh
+                  tooltip:
+                    shared: true
+                    intersect: false
+                    x:
+                      format: ddd dd MMM HH:mm
+                series:
+                  # Fixed costs per kWh at the bottom of each bar (purple), price stacked on top: network cost incl. 6% VAT +
+                  # federal excise + federal supplement = sensor.epex_afname_extra (ct/kWh).
+                  # The per-quarter fixed fee / data management are not per kWh and are left out.
+                  # Shown only while input_boolean.hbc_price_chart_show_fixed_costs is on. The
+                  # boolean is this series' entity so flipping it redraws the chart at once; the
+                  # prices are read from sensor.hbc_energy_prices_data via hass.
+                  - entity: input_boolean.hbc_price_chart_show_fixed_costs
+                    name: Vaste kosten
+                    type: column
+                    color: '#ce93d8'
+                    float_precision: 1
+                    show:
+                      legend_value: false
+                    data_generator: |
+                      if (entity.state !== 'on') return [];
+                      const pr = hass.states['sensor.hbc_energy_prices_data'];
+                      const marks = (pr && pr.attributes.marks) || [];
+                      const fx = hass.states['sensor.epex_afname_extra'];
+                      const fixed = fx ? parseFloat(fx.state) : NaN;
+                      if (!Number.isFinite(fixed)) return [];
+                      return marks.map(iv => ({
+                        x: new Date(iv.start).getTime(),
+                        y: fixed
+                      }));
+                  - entity: sensor.hbc_energy_prices_data
+                    name: Prijs
+                    type: column
+                    float_precision: 1
+                    show:
+                      legend_value: false
+                    data_generator: |
+                      const marks = entity.attributes.marks || [];
+                      const colours = { high: '#ff9800', low: '#4caf50' };
+                      const now = Date.now();
+                      return marks.map(iv => {
+                        const s = new Date(iv.start).getTime();
+                        const e = new Date(iv.end).getTime();
+                        return {
+                          x: s,
+                          y: iv.price,
+                          fillColor: (now >= s && now < e)
+                            ? '#009ac7'
+                            : (colours[iv.mark] || '#9e9e9e')
+                        };
+                      });
           - type: heading
             icon: mdi:information
             heading_style: subtitle

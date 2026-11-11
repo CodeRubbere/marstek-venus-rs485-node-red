@@ -1,6 +1,6 @@
 [
     {
-        "id": "20ec23eabb703f8e",
+        "id": "529f2156e8126e89",
         "type": "tab",
         "label": "Strategy Dynamic v4.15.1",
         "disabled": false,
@@ -8,16 +8,16 @@
         "env": []
     },
     {
-        "id": "83558230a93e773d",
+        "id": "f26d19409d724b2b",
         "type": "group",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "Battery solutions",
         "style": {
             "label": true
         },
         "nodes": [
-            "ab018b66ce66550c",
-            "48bea4d704e0b050"
+            "afb1d32a187e8211",
+            "4494dc45147c703f"
         ],
         "x": 934,
         "y": 79,
@@ -25,18 +25,18 @@
         "h": 142
     },
     {
-        "id": "756b9c35c89b1e52",
+        "id": "9053e13a25f81961",
         "type": "group",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "Home battery start",
         "style": {
             "label": true
         },
         "nodes": [
-            "2a27066a09a9da2e",
-            "6307c35c63ccb6e4",
-            "55d847ca7621469e",
-            "c0a6221d2b72cb4d"
+            "aeeaf8078e9c53b2",
+            "10fc472b52ed8d11",
+            "ebf4d99c59604791",
+            "8344a58ae06daa27"
         ],
         "x": 14,
         "y": 79,
@@ -44,21 +44,21 @@
         "h": 202
     },
     {
-        "id": "fe1bbfe90210ee30",
+        "id": "cc100ed25df15645",
         "type": "group",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "Plan",
         "style": {
             "label": true
         },
         "nodes": [
-            "0a462b258abad766",
-            "3c01cea5a47f5a4d",
-            "89b9ad4a981b58af",
-            "58c11d1f75888796",
-            "fbb20c68222f37b0",
-            "f8599c8b4feddc74",
-            "feb03fe9e30dd773"
+            "7cfefa83661a5c40",
+            "4dbb60255d5e4558",
+            "850a6d6cf5f019a8",
+            "cc8776bce3ac59b4",
+            "ddefcc90a871b894",
+            "c59401c3aa9afd81",
+            "a9880de736174140"
         ],
         "x": 228,
         "y": 273,
@@ -66,19 +66,19 @@
         "h": 794
     },
     {
-        "id": "693e2c5fe694d14d",
+        "id": "f1449e32f10bd2db",
         "type": "group",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "Execute",
         "style": {
             "label": true
         },
         "nodes": [
-            "b0df665fcdb82087",
-            "4d98c4c9c30982d5",
-            "cd1b8b7c53143f80",
-            "c65485e8de278e0c",
-            "39d6eaa9d33c62b6"
+            "0a63cad1dfa98d90",
+            "2a94de18e64ef60e",
+            "213be3ce5cf2f950",
+            "0d51ebd85af18c78",
+            "71e2439f4d4c9680"
         ],
         "x": 234,
         "y": 119,
@@ -86,52 +86,52 @@
         "h": 122
     },
     {
-        "id": "25cff1b8ee88f765",
+        "id": "96d63a4eed681faa",
         "type": "group",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "Test area",
         "style": {
             "label": true
         },
         "nodes": [
-            "4807cc0afd24e44e",
-            "37e631ca72b9fcbd",
-            "086288496d47001f",
-            "1b13223777d0924f",
-            "fcbe70ad3abf37b6",
-            "572ce7d334f6f7ce",
-            "441db71a67d14e4f",
-            "018f5f2bb191c55b"
+            "54fba2359c93df36",
+            "b41ef2854d880f51",
+            "ba485bde65086ea5",
+            "5c5d3fcfef9ff868",
+            "5b8fab4eac56683e",
+            "4cdedf5f3278ef96",
+            "4eac9935ae3e59c8",
+            "2f1a906278ed3a65"
         ],
         "x": 234,
-        "y": 1479,
+        "y": 1099,
         "w": 912,
         "h": 162
     },
     {
-        "id": "ebc420e9e86347a0",
+        "id": "d66a8fa1349b1be0",
         "type": "group",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "All data",
         "style": {
             "label": true
         },
         "nodes": [
-            "3a6098886006cc11",
-            "0e7d6d93d029c4dc",
-            "f3684cadf212db97",
-            "9a24dac328094f20",
-            "61c3b77a6cd4ad02"
+            "83906057a3edf655",
+            "75e901b23e7ff0db",
+            "e67f7077390d9b41",
+            "858ef33644736f7f",
+            "38d5818ee29a7c83"
         ],
         "x": 234,
-        "y": 1659,
+        "y": 1279,
         "w": 672,
         "h": 142
     },
     {
-        "id": "c9a3b480ecbadded",
+        "id": "cfa9f2ed12a5b1e3",
         "type": "group",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "Unhandled exceptions",
         "style": {
             "label": true,
@@ -139,9 +139,9 @@
             "color": "#d88a8a"
         },
         "nodes": [
-            "adfa78e19d085fa7",
-            "429120a570738a8d",
-            "6cdc2077d401103e"
+            "edf95baf2751f513",
+            "1b02595533618e2d",
+            "6ca28aad04117336"
         ],
         "x": 24,
         "y": 279,
@@ -149,61 +149,64 @@
         "h": 82
     },
     {
-        "id": "fbb20c68222f37b0",
+        "id": "ddefcc90a871b894",
         "type": "group",
-        "z": "20ec23eabb703f8e",
-        "g": "fe1bbfe90210ee30",
+        "z": "529f2156e8126e89",
+        "g": "cc100ed25df15645",
         "name": "API call to Data Source",
         "style": {
             "label": true
         },
         "nodes": [
-            "1a77d0807a9aad0b",
-            "9a08cc18f62af015",
-            "8e0c95fab2209016",
-            "49096de10aa0fe44",
-            "c03c1f589a980c31",
-            "08d1c06448030df3",
-            "5e92656d2b701637",
-            "777bddce94736779",
-            "9638bed49af9193d",
-            "d81e41101941ef72",
-            "97f11b16b85d92b3"
+            "a3deceddc350d343",
+            "02a28003d2b8f47f",
+            "c7c4ed0f2bc34be9",
+            "798b4c8044916eb0",
+            "1465c46545d24043",
+            "34a6be64fcce3dc8",
+            "ccd735469ef44107",
+            "22ab9a461e573d10",
+            "14bd437868c7c93a",
+            "34c743cc1e46f8bb",
+            "f5cec25ae1fa2f1b",
+            "f26dca875378b7ea",
+            "f2202518adc7aeba"
         ],
         "x": 254,
         "y": 519,
-        "w": 652,
-        "h": 242
+        "w": 662,
+        "h": 262
     },
     {
-        "id": "f8599c8b4feddc74",
+        "id": "c59401c3aa9afd81",
         "type": "group",
-        "z": "20ec23eabb703f8e",
-        "g": "fe1bbfe90210ee30",
+        "z": "529f2156e8126e89",
+        "g": "cc100ed25df15645",
         "name": "Update when",
         "style": {
             "label": true
         },
         "nodes": [
-            "c320032a7af8fd50",
-            "1a2e7e6dc4f358af",
-            "a04e3c3f2692696c",
-            "5b9a241f21a0b52e",
-            "e3333d898ece4ca1",
-            "6a44dbb8c8853e76",
-            "ba69c5e0a5ceae65",
-            "6e2bc646f6a4111e",
-            "1c03bd44e3b01b8b",
-            "d67829866f09c3c1",
-            "83516f81939c0da1",
-            "3a032aa2f9b55ccc",
-            "670da8cf93d31473",
-            "9673f13e78ee1c82",
-            "27a41299df654ba4",
-            "fe2525c450bedc78",
-            "d0e64c2351177b95",
-            "f5500efe9808a53c",
-            "b687e3a469a7d004"
+            "de631ce51e02b9bd",
+            "359e49e7dc60c5e6",
+            "4a62d9f1df1645f9",
+            "92d7f81968e67114",
+            "5cc961e58e6a6a77",
+            "3b9bcbd6c013cd49",
+            "371deb7239494156",
+            "0b320b2fdeaab5b4",
+            "8be3768cc4ffc143",
+            "5d8c4ff517b7231a",
+            "477e40251647ce80",
+            "8cf5c4bb1bd3df3f",
+            "10c1b643bff0483b",
+            "e6bb771004a85c15",
+            "0deee5c5a2ed7802",
+            "9d9d1775626437ca",
+            "31d0d140909c39a7",
+            "61e64ccb45c0167f",
+            "a68ead022ea65f5b",
+            "hbcrefreshevt001"
         ],
         "x": 254,
         "y": 299,
@@ -211,26 +214,26 @@
         "h": 202
     },
     {
-        "id": "feb03fe9e30dd773",
+        "id": "a9880de736174140",
         "type": "group",
-        "z": "20ec23eabb703f8e",
-        "g": "fe1bbfe90210ee30",
+        "z": "529f2156e8126e89",
+        "g": "cc100ed25df15645",
         "name": "Determine strategy",
         "style": {
             "label": true
         },
         "nodes": [
-            "1cdf09af08e6d23d",
-            "dad3e8661cdb5205",
-            "a62acf1d7de78197",
-            "2699506db55ef89b",
-            "cf1d6a558a11724b",
-            "8a78642dab3e5e0b",
-            "d420dcd81ba3def6",
-            "126b36990fc3a1a1",
-            "635f84d533e55fe7",
-            "c4bddc6849f4345a",
-            "615e2655b96645d8"
+            "e6845c9433892c89",
+            "fc6d54263dd8f5d4",
+            "8df3eaceff637835",
+            "498be65894cc1a0f",
+            "82d931d96988e45b",
+            "63018bf392999e01",
+            "db5bf9bac3268cf9",
+            "8b9a7ed557603f0a",
+            "988c82ea1fd664a4",
+            "4520c17cbdaa32cb",
+            "c6e07044ab6faba5"
         ],
         "x": 254,
         "y": 799,
@@ -238,39 +241,39 @@
         "h": 242
     },
     {
-        "id": "d67829866f09c3c1",
+        "id": "5d8c4ff517b7231a",
         "type": "junction",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "x": 640,
         "y": 340,
         "wires": [
             [
-                "d0e64c2351177b95"
+                "31d0d140909c39a7"
             ]
         ]
     },
     {
-        "id": "2a27066a09a9da2e",
+        "id": "aeeaf8078e9c53b2",
         "type": "link in",
-        "z": "20ec23eabb703f8e",
-        "g": "756b9c35c89b1e52",
+        "z": "529f2156e8126e89",
+        "g": "9053e13a25f81961",
         "name": "Dynamic 2",
         "links": [],
         "x": 100,
         "y": 160,
         "wires": [
             [
-                "55d847ca7621469e"
+                "ebf4d99c59604791"
             ]
         ],
         "l": true,
         "info": "This is a backwards compatibility node"
     },
     {
-        "id": "e9901c1bab89da91",
+        "id": "beee1b0f0324aca0",
         "type": "comment",
-        "z": "20ec23eabb703f8e",
+        "z": "529f2156e8126e89",
         "name": "Home Battery Strategy",
         "info": "The `Home Battery Start` flow will call this strategy flow\nby matching the strategy name with the Link In name.\n\nConfigure the Link In node in the Start group.\n\nDon't modify other parts of the Start and End groups.\nThey handle the calling and returning for you.",
         "x": 120,
@@ -278,10 +281,10 @@
         "wires": []
     },
     {
-        "id": "6307c35c63ccb6e4",
+        "id": "10fc472b52ed8d11",
         "type": "comment",
-        "z": "20ec23eabb703f8e",
-        "g": "756b9c35c89b1e52",
+        "z": "529f2156e8126e89",
+        "g": "9053e13a25f81961",
         "name": "Start (readme)",
         "info": "# Setting up your battery strategy flow\n\n## Setup\nName the `Link In node` in this start group exactly after the <select> option configured in your\nselect_input.house_battery_strategy\n\nconfigure select options in:\ninput_select_house_battery_control.yaml\n\n### example\n`house_battery_strategy:\n  name: House Battery Strategy\n  options:\n    - AcmE example`\n\nThe above creates a select option, allowing user to select 'AcmE example'\n\nWhen selected, battery control will search for a flow containing a Link In node\ncalled 'AcmE example' (case sensitive).",
         "x": 110,
@@ -289,10 +292,10 @@
         "wires": []
     },
     {
-        "id": "ab018b66ce66550c",
+        "id": "afb1d32a187e8211",
         "type": "link out",
-        "z": "20ec23eabb703f8e",
-        "g": "83558230a93e773d",
+        "z": "529f2156e8126e89",
+        "g": "f26d19409d724b2b",
         "name": "Return",
         "mode": "return",
         "links": [],
@@ -301,10 +304,10 @@
         "wires": []
     },
     {
-        "id": "48bea4d704e0b050",
+        "id": "4494dc45147c703f",
         "type": "comment",
-        "z": "20ec23eabb703f8e",
-        "g": "83558230a93e773d",
+        "z": "529f2156e8126e89",
+        "g": "f26d19409d724b2b",
         "name": "End (readme)",
         "info": "Should return a solution_array of battery objects\n\n## battery object format\n`{{id: string|number, mode: string, power: number}} battery solution`\n- id is an arbitrary battery ID\n- mode is \"stop\", \"charge\", \"discharge\" for Marstek\n- power in Watts\n\n### example array\nreturn this type of solution_array via msg.solutions\n` \nlet solution_array = [];\nsolution_array.push({id:\"M1\", mode: \"charge\", power: 100}); // per battery\nreturn {solutions: solution_array};\n` ",
         "x": 1030,
@@ -312,10 +315,20 @@
         "wires": []
     },
     {
-        "id": "1cdf09af08e6d23d",
+        "id": "57303b52c334f515",
+        "type": "comment",
+        "z": "529f2156e8126e89",
+        "name": "📖 How this flow works (open the Info sidebar)",
+        "info": "# Strategy Dynamic v2 - how it works\n\nThe Start flow calls this tab on **every P1 update** (link in `Dynamic` / `Dynamic 2`).\nThat fast path does **not** read the period selectors: it runs whatever strategy is cached\nin `flow.dynamic_strategy` (via *Has strategy* -> *Set strategy* -> *Sub-strategy*).\nAn empty cache means **Full stop** (*Set Full stop*).\n\n`flow.dynamic_strategy` is recalculated only by the **Update when** group:\n\n| Trigger | When |\n|---|---|\n| *Update strat* | every 15 min (and once, 3 s after deploy) |\n| *Clear cache* / *Midnight* | 00:01, 13:15 and 15:00 - also re-fetches the prices |\n| *User input* | any change of the entities below |\n\n*User input* watches:\n\n- `input_select.house_battery_strategy` (master strategy)\n- `input_select.house_battery_strategy_dynamic_data_source`\n- `input_number.house_battery_strategy_dynamic_threshold_delta`\n- `input_number.house_battery_strategy_dynamic_cheapest_hrs`\n- `input_number.house_battery_strategy_dynamic_expensive_hrs`\n- `input_select.house_battery_strategy_dynamic_default` - **Baseline / regular period** *(local)*\n- `input_select.house_battery_strategy_dynamic_cheapest` - **cheapest period** *(local)*\n- `input_select.house_battery_strategy_dynamic_expensive` - **expensive period** *(local)*\n\n## Local change (2026-10-26) - not in upstream HBC v4.15.1\n\nThe three period selectors marked *(local)* were added to *User input*.\n\n**Why:** upstream did not watch them, so changing e.g. the regular period from *Full stop*\nto another strategy only took effect at the next quarter-hour tick - until then the\nbatteries kept running the old cached strategy.\n\n**Now:** a change to any period selector recalculates the strategy within a second or two\n(prices come from the cache, so no extra API call).\n\n**After an HBC update:** importing a new upstream version of this tab removes the change.\nRe-add the three entities to *User input* and Deploy, unless upstream has fixed it.\n\n## Still forces Full stop\n\n`flow.dynamic_strategy` is empty - and the batteries go to **Full stop** whatever the\nselectors say - when:\n\n- the tariff data source is *None* (*Set dynamic strategy to null*),\n- Node-RED just restarted and no recalculation has run yet,\n- no price data came back (*Determine dynamic strategy* shows *No price data*).\n",
+        "x": 410,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "e6845c9433892c89",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Complete message",
         "active": true,
         "tosidebar": true,
@@ -330,12 +343,12 @@
         "wires": []
     },
     {
-        "id": "dad3e8661cdb5205",
+        "id": "fc6d54263dd8f5d4",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Determine dynamic strategy",
-        "func": "// logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\n// 1.  Input\nconst minDeltaCents = parseInt(RED.util.getMessageProperty(msg, \"dynamic.min_delta_cents\")) || 0;\n// Per-day caps on the number of LOW / HIGH marks, expressed in hours.\n// 0 (or missing/invalid/negative) means no limit.\nconst cheapestHrs = parseFloat(RED.util.getMessageProperty(msg, \"dynamic.cheapest_hrs\")) || 0;\nconst expensiveHrs = parseFloat(RED.util.getMessageProperty(msg, \"dynamic.expensive_hrs\")) || 0;\nconst dataAll = RED.util.getMessageProperty(msg, \"dynamic.data_all\");\n\nif (!dataAll || !Array.isArray(dataAll.list) || dataAll.list.length === 0) {\n    log(this, \"Price list missing or empty\", \"warn\");\n    node.status({ fill: \"red\", shape: \"ring\", text: \"No price data\" });\n    return null;\n}\n\nconst STRATEGY = {\n    HIGH: RED.util.getMessageProperty(msg, \"dynamic.strategy_expensive\") || \"Self-consumption\",\n    LOW: RED.util.getMessageProperty(msg, \"dynamic.strategy_cheapest\") || \"Charge\",\n    NEUTRAL: RED.util.getMessageProperty(msg, \"dynamic.strategy_default\") || \"Charge PV\",\n};\n\n// 2.  Build interval timestamps\n// Each datapoint covers (hours / datapoints) hours.\nconst prices = dataAll.list; // cents/kWh — already converted by \"Convert price\" node\nconst n = prices.length;\nconst startTime = new Date(dataAll.start);\nconst intervalMs = (dataAll.hours / dataAll.datapoints) * 3_600_000;\n\n// 3.  Mark intervals: pair extremes inward — independently per calendar day\n//\n// Pairing runs separately within each local calendar day, so today's marks\n// don't shift when tomorrow's prices arrive. Pair detection is one-to-one\n// (each candidate HIGH is matched against one candidate LOW), but the\n// per-day cheapest_hrs / expensive_hrs caps may suppress one side of a\n// detected pair — so the final marks can be asymmetric (e.g. 2 LOW + 1 HIGH\n// in a day if expensive_hrs caps HIGH at 1). The minDelta threshold\n// accounts for round-trip efficiency and other losses, so a pair is only\n// considered viable when its spread covers the loss.\n//\n// Method (Extreme-Pair Matching, O(n log n)):\n//   1. Sort intervals by price, keep original time-index for re-mapping.\n//   2. Two pointers walk inward from the extremes — `lo` from the cheapest\n//      unmatched, `hi` from the most-expensive unmatched.\n//   3. If the spread between them clears minDelta: mark them, advance both.\n//   4. If it does not clear minDelta: the cheapest unmatched LOW paired\n//      with the most-expensive unmatched HIGH yields the largest spread\n//      still achievable. If even that fails, no remaining pair can satisfy\n//      the threshold, so we stop.\n//\n// This algorithm prefers to mark the truly extreme\n// hours (highest-priced as HIGH, lowest-priced as LOW). On well-behaved\n// daily curves this produces the same number of pairs as \n// other algorithm variants; but in tight cases it can produce one or two fewer\n// pairs. Why choose this version? It marks the price peaks/troughs the user\n// would intuitively expect, which is good for user confidence and acceptance of the strategy. It is also efficient and straightforward to implement, without needing complex data structures or backtracking. \n// The main goal is to identify a set of HIGH and LOW intervals that are economically justified by their price spread, while keeping the logic transparent and explainable to the user.\n\n// Note:\n// It is up to the user to set minDelta appropriately for their system's efficiency and other costs, to ensure that marked cycles are truly beneficial.\n// Also the user can pick strategies that reflect their preferences for what to do during LOW and HIGH intervals, e.g. prioritising self-consumption during HIGH intervals, or selling back to the grid if allowed and profitable.\n// This makes optimisation flexible and user-configurable, while still being based on a clear economic rationale.\n// However, the algorithm does not attempt to find the optimal global pairing (which would be more complex), but rather a good local pairing that is computationally efficient and easy to understand.\n\n/**\n * @typedef {{ start: Date, end: Date, price: number, mark: 'high'|'low'|null, is_now: boolean }} Interval\n * @type {Interval[]}\n */\nconst intervals = new Array(n);\nfor (let i = 0; i < n; i++) {\n    const iStart = new Date(startTime.getTime() + i * intervalMs);\n    const iEnd = new Date(iStart.getTime() + intervalMs);\n    intervals[i] = { start: iStart, end: iEnd, price: prices[i], mark: null, is_now: false };\n}\n\n// Group interval indices by local calendar day (key = Y-M-D in local TZ).\nconst dayBuckets = new Map();\nfor (let i = 0; i < n; i++) {\n    const d = intervals[i].start;\n    const key = `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;\n    let bucket = dayBuckets.get(key);\n    if (!bucket) { bucket = []; dayBuckets.set(key, bucket); }\n    bucket.push(i);\n}\n\n// Convert per-day hour caps to per-day interval counts.\n// intervalsPerHour = datapoints / hours (e.g. 4 for 15-min intervals).\n// 0 hrs => Infinity (no cap). Negatives are treated as 0 (no cap).\nconst intervalsPerHour = dataAll.datapoints / dataAll.hours;\nconst maxLowPerDay = cheapestHrs > 0 ? Math.round(cheapestHrs * intervalsPerHour) : Infinity;\nconst maxHighPerDay = expensiveHrs > 0 ? Math.round(expensiveHrs * intervalsPerHour) : Infinity;\n\n// Per dag de markeringen zetten.\nlet fullPairCount = 0;   // pairs where BOTH sides were marked (a complete cycle)\nlet lowMarkCount = 0;    // total LOW marks across all days\nlet highMarkCount = 0;   // total HIGH marks across all days\nfor (const dayIndices of dayBuckets.values()) {\n    // This day's indices sorted ascending by price (stable on ties).\n    const sortedIdx = [...dayIndices].sort((a, b) => prices[a] - prices[b]);\n    let lo = 0;\n    let hi = sortedIdx.length - 1;\n    let lowMarkedToday = 0;\n    let highMarkedToday = 0;\n    while (lo < hi) {\n        const loIdx = sortedIdx[lo];\n        const hiIdx = sortedIdx[hi];\n        if (prices[hiIdx] - prices[loIdx] >= minDeltaCents) {\n            const markLow = lowMarkedToday < maxLowPerDay;\n            const markHigh = highMarkedToday < maxHighPerDay;\n            // Both caps reached on this day — no more useful work here.\n            if (!markLow && !markHigh) break;\n            if (markLow) {\n                intervals[loIdx].mark = 'low';\n                lowMarkedToday++;\n                lowMarkCount++;\n            }\n            if (markHigh) {\n                intervals[hiIdx].mark = 'high';\n                highMarkedToday++;\n                highMarkCount++;\n            }\n            if (markLow && markHigh) fullPairCount++;\n            lo++; hi--;\n        } else {\n            // sortedIdx[lo] is the cheapest unmatched within this day,\n            // sortedIdx[hi] the most-expensive. Their spread is the largest\n            // still possible today — if it falls below minDelta, no further\n            // pair on this day can satisfy the threshold.\n            break;\n        }\n    }\n}\n\n// 4.  Determine current strategy\nconst now = new Date();\nconst currentInterval = intervals.find(iv => now >= iv.start && now < iv.end);\nif (currentInterval) currentInterval.is_now = true;\nconst currentMark = currentInterval ? currentInterval.mark : null;\n\nconst strategy =\n    currentMark === 'high' ? STRATEGY.HIGH :\n        currentMark === 'low' ? STRATEGY.LOW :\n            STRATEGY.NEUTRAL;\n\nconst strategyMark = \n    currentMark === 'high' ? 'Expensive' :\n        currentMark === 'low' ? 'Cheap' :\n            'Regular';\n\n\n// 5.  Store results\nRED.util.setMessageProperty(msg,\"dynamic.data_all.list_marked\",intervals,true);\nRED.util.setMessageProperty(msg, \"dynamic.data_all.mark_now\", strategyMark, true);\nRED.util.setMessageProperty(msg,\"dynamic.strategy\",strategy);\nflow.set(\"dynamic_strategy\", strategy); // this is the strategy executed when dynamic strategy is active, see the 'Execute' section of this flow.\n\n// 6.  Explain\n// Extract and sort marked intervals to pair them correctly for profit analysis\nconst lowPrices = intervals\n    .filter(iv => iv.mark === 'low')\n    .map(iv => iv.price)\n    .sort((a, b) => a - b); // Cheapest first\nconst highPrices = intervals\n    .filter(iv => iv.mark === 'high')\n    .map(iv => iv.price)\n    .sort((a, b) => b - a); // Most expensive first\n\n// Only calculate spread over actual completed cycles (pairs)\nlet grossSpread = 0;\nfor (let i = 0; i < fullPairCount; i++) {\n    grossSpread += (highPrices[i] - lowPrices[i]);\n}\nconst netSpread = grossSpread - (fullPairCount * minDeltaCents);\nconst markedCount = lowMarkCount + highMarkCount;\n\n// 6a. Average spread per full cycle (pair) today\nconst avgGrossSpread = fullPairCount > 0 ? Math.round(grossSpread / fullPairCount) : 0;\nconst avgNetSpread = fullPairCount > 0 ? Math.round(netSpread / fullPairCount) : 0;\nRED.util.setMessageProperty(msg, \"dynamic.data_all.gross_spread_avg\", avgGrossSpread, true);\nRED.util.setMessageProperty(msg, \"dynamic.data_all.net_spread_avg\", avgNetSpread, true);\n\n// 6b.\nnode.status({\n    fill: \"blue\", shape: \"dot\",\n    text: `${strategy} | ${fullPairCount} cycle${fullPairCount === 1 ? '' : 's'} | net Σ${avgNetSpread}¢`\n});\nlog(this, `Strategy: **${strategy}** | cycles=${fullPairCount} low=${lowMarkCount} high=${highMarkCount} unmarked=${n - markedCount} | gross=${grossSpread}¢ net=${avgNetSpread}¢ minDelta=${minDeltaCents}¢ caps=L${cheapestHrs}h/H${expensiveHrs}h`);\n\nreturn msg;",
+        "func": "// logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\n// 1.  Input\nconst minDeltaCents = parseInt(RED.util.getMessageProperty(msg, \"dynamic.min_delta_cents\")) || 0;\n// Per-day caps on the number of LOW / HIGH marks, expressed in hours.\n// 0 (or missing/invalid/negative) means no limit.\nconst cheapestHrs = parseFloat(RED.util.getMessageProperty(msg, \"dynamic.cheapest_hrs\")) || 0;\nconst expensiveHrs = parseFloat(RED.util.getMessageProperty(msg, \"dynamic.expensive_hrs\")) || 0;\nconst dataAll = RED.util.getMessageProperty(msg, \"dynamic.data_all\");\n\nif (!dataAll || !Array.isArray(dataAll.list) || dataAll.list.length === 0) {\n    // No prices: publish the empty set so the Price intervals chart shows 'No Data Available'\n    // instead of the previous source's prices. The executed strategy is left unchanged.\n    log(this, \"Price list missing or empty\", \"warn\");\n    node.status({ fill: \"red\", shape: \"ring\", text: \"No price data\" });\n    RED.util.setMessageProperty(msg, \"dynamic.data_all\", { list: [], list_marked: [], average: 0, mark_now: 'No data', start: 'Unknown', datapoints_per_hour: 0, net_spread_avg: 0, gross_spread_avg: 0 }, true);\n    return msg;\n}\n\nconst STRATEGY = {\n    HIGH: RED.util.getMessageProperty(msg, \"dynamic.strategy_expensive\") || \"Self-consumption\",\n    LOW: RED.util.getMessageProperty(msg, \"dynamic.strategy_cheapest\") || \"Charge\",\n    NEUTRAL: RED.util.getMessageProperty(msg, \"dynamic.strategy_default\") || \"Charge PV\",\n};\n\n// 2.  Build interval timestamps\n// Each datapoint covers (hours / datapoints) hours.\nconst prices = dataAll.list; // cents/kWh — already converted by \"Convert price\" node\nconst n = prices.length;\nconst startTime = new Date(dataAll.start);\nconst intervalMs = (dataAll.hours / dataAll.datapoints) * 3_600_000;\n\n// 3.  Mark intervals: pair extremes inward — independently per calendar day\n//\n// Pairing runs separately within each local calendar day, so today's marks\n// don't shift when tomorrow's prices arrive. Pair detection is one-to-one\n// (each candidate HIGH is matched against one candidate LOW), but the\n// per-day cheapest_hrs / expensive_hrs caps may suppress one side of a\n// detected pair — so the final marks can be asymmetric (e.g. 2 LOW + 1 HIGH\n// in a day if expensive_hrs caps HIGH at 1). The minDelta threshold\n// accounts for round-trip efficiency and other losses, so a pair is only\n// considered viable when its spread covers the loss.\n//\n// Method (Extreme-Pair Matching, O(n log n)):\n//   1. Sort intervals by price, keep original time-index for re-mapping.\n//   2. Two pointers walk inward from the extremes — `lo` from the cheapest\n//      unmatched, `hi` from the most-expensive unmatched.\n//   3. If the spread between them clears minDelta: mark them, advance both.\n//   4. If it does not clear minDelta: the cheapest unmatched LOW paired\n//      with the most-expensive unmatched HIGH yields the largest spread\n//      still achievable. If even that fails, no remaining pair can satisfy\n//      the threshold, so we stop.\n//\n// This algorithm prefers to mark the truly extreme\n// hours (highest-priced as HIGH, lowest-priced as LOW). On well-behaved\n// daily curves this produces the same number of pairs as \n// other algorithm variants; but in tight cases it can produce one or two fewer\n// pairs. Why choose this version? It marks the price peaks/troughs the user\n// would intuitively expect, which is good for user confidence and acceptance of the strategy. It is also efficient and straightforward to implement, without needing complex data structures or backtracking. \n// The main goal is to identify a set of HIGH and LOW intervals that are economically justified by their price spread, while keeping the logic transparent and explainable to the user.\n\n// Note:\n// It is up to the user to set minDelta appropriately for their system's efficiency and other costs, to ensure that marked cycles are truly beneficial.\n// Also the user can pick strategies that reflect their preferences for what to do during LOW and HIGH intervals, e.g. prioritising self-consumption during HIGH intervals, or selling back to the grid if allowed and profitable.\n// This makes optimisation flexible and user-configurable, while still being based on a clear economic rationale.\n// However, the algorithm does not attempt to find the optimal global pairing (which would be more complex), but rather a good local pairing that is computationally efficient and easy to understand.\n\n/**\n * @typedef {{ start: Date, end: Date, price: number, mark: 'high'|'low'|null, is_now: boolean }} Interval\n * @type {Interval[]}\n */\nconst intervals = new Array(n);\nfor (let i = 0; i < n; i++) {\n    const iStart = new Date(startTime.getTime() + i * intervalMs);\n    const iEnd = new Date(iStart.getTime() + intervalMs);\n    intervals[i] = { start: iStart, end: iEnd, price: prices[i], mark: null, is_now: false };\n}\n\n// Group interval indices by local calendar day (key = Y-M-D in local TZ).\nconst dayBuckets = new Map();\nfor (let i = 0; i < n; i++) {\n    const d = intervals[i].start;\n    const key = `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;\n    let bucket = dayBuckets.get(key);\n    if (!bucket) { bucket = []; dayBuckets.set(key, bucket); }\n    bucket.push(i);\n}\n\n// Convert per-day hour caps to per-day interval counts.\n// intervalsPerHour = datapoints / hours (e.g. 4 for 15-min intervals).\n// 0 hrs => Infinity (no cap). Negatives are treated as 0 (no cap).\nconst intervalsPerHour = dataAll.datapoints / dataAll.hours;\nconst maxLowPerDay = cheapestHrs > 0 ? Math.round(cheapestHrs * intervalsPerHour) : Infinity;\nconst maxHighPerDay = expensiveHrs > 0 ? Math.round(expensiveHrs * intervalsPerHour) : Infinity;\n\n// Per dag de markeringen zetten.\nlet fullPairCount = 0;   // pairs where BOTH sides were marked (a complete cycle)\nlet lowMarkCount = 0;    // total LOW marks across all days\nlet highMarkCount = 0;   // total HIGH marks across all days\nfor (const dayIndices of dayBuckets.values()) {\n    // This day's indices sorted ascending by price (stable on ties).\n    const sortedIdx = [...dayIndices].sort((a, b) => prices[a] - prices[b]);\n    let lo = 0;\n    let hi = sortedIdx.length - 1;\n    let lowMarkedToday = 0;\n    let highMarkedToday = 0;\n    while (lo < hi) {\n        const loIdx = sortedIdx[lo];\n        const hiIdx = sortedIdx[hi];\n        if (prices[hiIdx] - prices[loIdx] >= minDeltaCents) {\n            const markLow = lowMarkedToday < maxLowPerDay;\n            const markHigh = highMarkedToday < maxHighPerDay;\n            // Both caps reached on this day — no more useful work here.\n            if (!markLow && !markHigh) break;\n            if (markLow) {\n                intervals[loIdx].mark = 'low';\n                lowMarkedToday++;\n                lowMarkCount++;\n            }\n            if (markHigh) {\n                intervals[hiIdx].mark = 'high';\n                highMarkedToday++;\n                highMarkCount++;\n            }\n            if (markLow && markHigh) fullPairCount++;\n            lo++; hi--;\n        } else {\n            // sortedIdx[lo] is the cheapest unmatched within this day,\n            // sortedIdx[hi] the most-expensive. Their spread is the largest\n            // still possible today — if it falls below minDelta, no further\n            // pair on this day can satisfy the threshold.\n            break;\n        }\n    }\n}\n\n// 4.  Determine current strategy\nconst now = new Date();\nconst currentInterval = intervals.find(iv => now >= iv.start && now < iv.end);\nif (currentInterval) currentInterval.is_now = true;\nconst currentMark = currentInterval ? currentInterval.mark : null;\n\nconst strategy =\n    currentMark === 'high' ? STRATEGY.HIGH :\n        currentMark === 'low' ? STRATEGY.LOW :\n            STRATEGY.NEUTRAL;\n\nconst strategyMark = \n    currentMark === 'high' ? 'Expensive' :\n        currentMark === 'low' ? 'Cheap' :\n            'Regular';\n\n\n// 5.  Store results\nRED.util.setMessageProperty(msg,\"dynamic.data_all.list_marked\",intervals,true);\nRED.util.setMessageProperty(msg, \"dynamic.data_all.mark_now\", strategyMark, true);\nRED.util.setMessageProperty(msg,\"dynamic.strategy\",strategy);\nflow.set(\"dynamic_strategy\", strategy); // this is the strategy executed when dynamic strategy is active, see the 'Execute' section of this flow.\n\n// 6.  Explain\n// Extract and sort marked intervals to pair them correctly for profit analysis\nconst lowPrices = intervals\n    .filter(iv => iv.mark === 'low')\n    .map(iv => iv.price)\n    .sort((a, b) => a - b); // Cheapest first\nconst highPrices = intervals\n    .filter(iv => iv.mark === 'high')\n    .map(iv => iv.price)\n    .sort((a, b) => b - a); // Most expensive first\n\n// Only calculate spread over actual completed cycles (pairs)\nlet grossSpread = 0;\nfor (let i = 0; i < fullPairCount; i++) {\n    grossSpread += (highPrices[i] - lowPrices[i]);\n}\nconst netSpread = grossSpread - (fullPairCount * minDeltaCents);\nconst markedCount = lowMarkCount + highMarkCount;\n\n// 6a. Average spread per full cycle (pair) today\nconst avgGrossSpread = fullPairCount > 0 ? Math.round(grossSpread / fullPairCount) : 0;\nconst avgNetSpread = fullPairCount > 0 ? Math.round(netSpread / fullPairCount) : 0;\nRED.util.setMessageProperty(msg, \"dynamic.data_all.gross_spread_avg\", avgGrossSpread, true);\nRED.util.setMessageProperty(msg, \"dynamic.data_all.net_spread_avg\", avgNetSpread, true);\n\n// 6b.\nnode.status({\n    fill: \"blue\", shape: \"dot\",\n    text: `${strategy} | ${fullPairCount} cycle${fullPairCount === 1 ? '' : 's'} | net Σ${avgNetSpread}¢`\n});\nlog(this, `Strategy: **${strategy}** | cycles=${fullPairCount} low=${lowMarkCount} high=${highMarkCount} unmarked=${n - markedCount} | gross=${grossSpread}¢ net=${avgNetSpread}¢ minDelta=${minDeltaCents}¢ caps=L${cheapestHrs}h/H${expensiveHrs}h`);\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -346,17 +359,17 @@
         "y": 960,
         "wires": [
             [
-                "1cdf09af08e6d23d",
-                "a62acf1d7de78197",
-                "126b36990fc3a1a1"
+                "e6845c9433892c89",
+                "8df3eaceff637835",
+                "8b9a7ed557603f0a"
             ]
         ]
     },
     {
-        "id": "b0df665fcdb82087",
+        "id": "0a63cad1dfa98d90",
         "type": "change",
-        "z": "20ec23eabb703f8e",
-        "g": "693e2c5fe694d14d",
+        "z": "529f2156e8126e89",
+        "g": "f1449e32f10bd2db",
         "name": "Set strategy",
         "rules": [
             {
@@ -376,15 +389,15 @@
         "y": 200,
         "wires": [
             [
-                "39d6eaa9d33c62b6"
+                "71e2439f4d4c9680"
             ]
         ]
     },
     {
-        "id": "4d98c4c9c30982d5",
+        "id": "2a94de18e64ef60e",
         "type": "link call",
-        "z": "20ec23eabb703f8e",
-        "g": "693e2c5fe694d14d",
+        "z": "529f2156e8126e89",
+        "g": "f1449e32f10bd2db",
         "name": "Sub-strategy",
         "links": [],
         "linkType": "dynamic",
@@ -393,15 +406,15 @@
         "y": 180,
         "wires": [
             [
-                "ab018b66ce66550c"
+                "afb1d32a187e8211"
             ]
         ]
     },
     {
-        "id": "c320032a7af8fd50",
+        "id": "de631ce51e02b9bd",
         "type": "inject",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Clear cache",
         "props": [
             {
@@ -423,15 +436,15 @@
         "y": 420,
         "wires": [
             [
-                "1a2e7e6dc4f358af"
+                "359e49e7dc60c5e6"
             ]
         ]
     },
     {
-        "id": "cd1b8b7c53143f80",
+        "id": "213be3ce5cf2f950",
         "type": "switch",
-        "z": "20ec23eabb703f8e",
-        "g": "693e2c5fe694d14d",
+        "z": "529f2156e8126e89",
+        "g": "f1449e32f10bd2db",
         "name": "Has strategy",
         "property": "dynamic_strategy",
         "propertyType": "flow",
@@ -450,18 +463,18 @@
         "y": 180,
         "wires": [
             [
-                "c65485e8de278e0c"
+                "0d51ebd85af18c78"
             ],
             [
-                "b0df665fcdb82087"
+                "0a63cad1dfa98d90"
             ]
         ]
     },
     {
-        "id": "c65485e8de278e0c",
+        "id": "0d51ebd85af18c78",
         "type": "change",
-        "z": "20ec23eabb703f8e",
-        "g": "693e2c5fe694d14d",
+        "z": "529f2156e8126e89",
+        "g": "f1449e32f10bd2db",
         "name": "Set Full stop",
         "rules": [
             {
@@ -481,15 +494,15 @@
         "y": 160,
         "wires": [
             [
-                "39d6eaa9d33c62b6"
+                "71e2439f4d4c9680"
             ]
         ]
     },
     {
-        "id": "37e631ca72b9fcbd",
+        "id": "b41ef2854d880f51",
         "type": "inject",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "Test",
         "props": [
             {
@@ -508,18 +521,18 @@
         "payload": "",
         "payloadType": "date",
         "x": 330,
-        "y": 1520,
+        "y": 1140,
         "wires": [
             [
-                "4807cc0afd24e44e"
+                "54fba2359c93df36"
             ]
         ]
     },
     {
-        "id": "4807cc0afd24e44e",
+        "id": "54fba2359c93df36",
         "type": "api-render-template",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "Cheapest",
         "server": "176d29a.6f648d6",
         "version": 0,
@@ -529,36 +542,36 @@
         "templateLocation": "",
         "templateLocationType": "none",
         "x": 500,
-        "y": 1520,
+        "y": 1140,
         "wires": [
             [
-                "086288496d47001f"
+                "ba485bde65086ea5"
             ]
         ]
     },
     {
-        "id": "086288496d47001f",
+        "id": "ba485bde65086ea5",
         "type": "json",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "",
         "property": "cheapest",
         "action": "obj",
         "pretty": false,
         "x": 595,
-        "y": 1520,
+        "y": 1140,
         "wires": [
             [
-                "1b13223777d0924f"
+                "5c5d3fcfef9ff868"
             ]
         ],
         "l": false
     },
     {
-        "id": "1b13223777d0924f",
+        "id": "5c5d3fcfef9ff868",
         "type": "api-render-template",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "Expensive",
         "server": "176d29a.6f648d6",
         "version": 0,
@@ -568,38 +581,38 @@
         "templateLocation": "",
         "templateLocationType": "none",
         "x": 750,
-        "y": 1520,
+        "y": 1140,
         "wires": [
             [
-                "fcbe70ad3abf37b6"
+                "5b8fab4eac56683e"
             ]
         ]
     },
     {
-        "id": "fcbe70ad3abf37b6",
+        "id": "5b8fab4eac56683e",
         "type": "json",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "",
         "property": "expensive",
         "action": "obj",
         "pretty": false,
         "x": 855,
-        "y": 1520,
+        "y": 1140,
         "wires": [
             [
-                "572ce7d334f6f7ce",
-                "441db71a67d14e4f",
-                "018f5f2bb191c55b"
+                "4cdedf5f3278ef96",
+                "4eac9935ae3e59c8",
+                "2f1a906278ed3a65"
             ]
         ],
         "l": false
     },
     {
-        "id": "572ce7d334f6f7ce",
+        "id": "4cdedf5f3278ef96",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "Cheap",
         "active": true,
         "tosidebar": false,
@@ -610,14 +623,14 @@
         "statusVal": "cheapest.start",
         "statusType": "auto",
         "x": 990,
-        "y": 1560,
+        "y": 1180,
         "wires": []
     },
     {
-        "id": "441db71a67d14e4f",
+        "id": "4eac9935ae3e59c8",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "Expensive",
         "active": true,
         "tosidebar": false,
@@ -628,14 +641,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1010,
-        "y": 1600,
+        "y": 1220,
         "wires": []
     },
     {
-        "id": "3a6098886006cc11",
+        "id": "83906057a3edf655",
         "type": "api-render-template",
-        "z": "20ec23eabb703f8e",
-        "g": "ebc420e9e86347a0",
+        "z": "529f2156e8126e89",
+        "g": "d66a8fa1349b1be0",
         "name": "All Zonneplan",
         "server": "176d29a.6f648d6",
         "version": 0,
@@ -645,18 +658,18 @@
         "templateLocation": "",
         "templateLocationType": "none",
         "x": 480,
-        "y": 1700,
+        "y": 1320,
         "wires": [
             [
-                "f3684cadf212db97"
+                "e67f7077390d9b41"
             ]
         ]
     },
     {
-        "id": "0e7d6d93d029c4dc",
+        "id": "75e901b23e7ff0db",
         "type": "inject",
-        "z": "20ec23eabb703f8e",
-        "g": "ebc420e9e86347a0",
+        "z": "529f2156e8126e89",
+        "g": "d66a8fa1349b1be0",
         "name": "Fetch",
         "props": [
             {
@@ -675,37 +688,37 @@
         "payload": "",
         "payloadType": "date",
         "x": 330,
-        "y": 1700,
+        "y": 1320,
         "wires": [
             [
-                "3a6098886006cc11"
+                "83906057a3edf655"
             ]
         ]
     },
     {
-        "id": "f3684cadf212db97",
+        "id": "e67f7077390d9b41",
         "type": "json",
-        "z": "20ec23eabb703f8e",
-        "g": "ebc420e9e86347a0",
+        "z": "529f2156e8126e89",
+        "g": "d66a8fa1349b1be0",
         "name": "",
         "property": "all_data",
         "action": "obj",
         "pretty": false,
         "x": 595,
-        "y": 1700,
+        "y": 1320,
         "wires": [
             [
-                "9a24dac328094f20",
-                "61c3b77a6cd4ad02"
+                "858ef33644736f7f",
+                "38d5818ee29a7c83"
             ]
         ],
         "l": false
     },
     {
-        "id": "1a2e7e6dc4f358af",
+        "id": "359e49e7dc60c5e6",
         "type": "delay",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -723,15 +736,15 @@
         "y": 420,
         "wires": [
             [
-                "9673f13e78ee1c82"
+                "e6bb771004a85c15"
             ]
         ]
     },
     {
-        "id": "a04e3c3f2692696c",
+        "id": "4a62d9f1df1645f9",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Source",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -774,17 +787,17 @@
         "y": 380,
         "wires": [
             [
-                "ba69c5e0a5ceae65"
+                "371deb7239494156"
             ]
         ]
     },
     {
-        "id": "1a77d0807a9aad0b",
+        "id": "a3deceddc350d343",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "Data source settings",
-        "func": "      // logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\n/*    From cheapes-energy-hours macro\n      See: https://github.com/TheFes/cheapest-energy-hours/blob/main/documentation/1-source_data.md#data-provider-settings\n\n      - None (default selection)\n      - Zonneplan\n      - Amber Electric\n      - EasyEnergy, EnergyZero (core)\n      - ENTSO-E\n      - Frank Energie\n      - GE-Spot\n      - Grid Clock (40 bidzones)\n      - Tibber, Nordpool (core)\n      - Tibber (custom)\n      - Nordpool (custom)\n      - PVPC (Spain)\n      - Octopus Energy\n      - Omie\n*/\n\nswitch (msg.dynamic.data_source) {\n      case \"None\":\n            // Handle the 'None' case (e.g., no supplier selected or data is unavailable)\n            log(this,\"No data source selected.\");\n            // Add config here...\n            break;\n\n      case \"Zonneplan\":\n            // Code for Zonneplan (a Dutch energy supplier)\n            // when using: https://github.com/fsaris/home-assistant-zonneplan-one\n            log(this,\"Processing Zonneplan data.\");\n            // Add config here...\n            // Zonneplan publishes quarter-hourly tariffs on their own entity, with the price\n            // nested in price_tax_included.amount. A nested value can not be reached with\n            // value_key (the macro reads item[value_key]), so the list is reshaped here and\n            // handed to the macro through price_data. Needs Cheapest Energy Hours >= v6.0.0.\n            // Falls back to the legacy hourly attributes when the quarter-hourly entity is\n            // not available. Both shapes use the same 1e-7 scale, so value_conversion holds\n            // for either of them.\n            msg.dynamic.template_prefix =\n`{%- set zp = namespace(list=[]) -%}\n{%- set q = state_attr('sensor.zonneplan_current_quarter_hourly_electricity_tariff', 'forecast') -%}\n{%- for i in q or [] -%}\n{%- set zp.list = zp.list + [{'start': i['start_date'], 'price': i['price_tax_included']['amount']}] -%}\n{%- endfor -%}\n{%- if not q -%}\n{%- for i in state_attr('sensor.zonneplan_current_electricity_tariff', 'forecast') or [] -%}\n{%- set zp.list = zp.list + [{'start': i['datetime'], 'price': i['electricity_price']}] -%}\n{%- endfor -%}\n{%- endif -%}`;\n            msg.dynamic.price_data = 'zp.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            msg.dynamic.value_conversion = 10000000; // whole currency / kWh\n            break;\n\n      case \"Amber Electric\":\n            // Code for Amber Electric (Australian energy retailer)\n            log(this,\"Processing Amber Electric data.\");\n            // Add config here...\n            msg.dynamic.attr_all='forecasts'; \n            msg.dynamic.time_key='start_time'; \n            msg.dynamic.value_key='per_kwh';\n            break;\n\n      case \"EasyEnergy, EnergyZero (core)\":\n            // Code for EasyEnergy and EnergyZero (core/default implementation)\n            log(this,\"Processing EasyEnergy/EnergyZero core data.\");\n            // Add config here...\n            break;\n\n      case \"ENTSO-E\":\n            // Code for ENTSO-E (European Network of Transmission System Operators for Electricity)\n            log(this,\"Processing ENTSO-E data.\");\n            // Add config here...\n            msg.dynamic.attr_today='prices_today'; \n            msg.dynamic.attr_tomorrow='prices_tomorrow'; \n            msg.dynamic.time_key='time';\n            msg.dynamic.value_key='price';\n            break;\n\n      case \"Frank Energie\":\n            // Code for Frank Energie (Dutch energy supplier)\n            log(this,\"Processing Frank Energie data.\");\n            // Add config here...\n            msg.dynamic.sensor = 'sensor.frank_energie_prijzen_gemiddelde_elektriciteitsprijs_alle_uren_all_in'; // when using: https://github.com/HiDiHo01/home-assistant-frank_energie\n            msg.dynamic.attr_all = 'prices'; \n            msg.dynamic.time_key = 'from'; \n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"GE-Spot\":\n            // Code for GE-Spot (Global Electric Spot price)\n            log(this,\"Processing GE-Spot data.\");\n            // Add config here...\n            msg.dynamic.attr_today = 'today_hourly_prices'; // using the hourly version. today_interval_prices is per 15 mins\n            msg.dynamic.attr_tomorrow = 'tomorrow_hourly_prices'; // using the hourly version\n            msg.dynamic.time_key = 'time'; \n            msg.dynamic.value_key = 'value';\n            break;\n\n      case \"Grid Clock AT\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_austria_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock BE\":\n            // Code for Grid Clock (your own gridclock.eu service), zone BE\n            log(this,\"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_belgium_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock CH\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_switzerland_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock BG\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_bulgaria_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock CZ\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_czechia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock DE-LU\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_germany_and_luxembourg_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock DK-East\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_denmark_east_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock DK-West\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_denmark_west_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock EE\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_estonia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break\n\n      case \"Grid Clock FI\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_finland_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock FR\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_france_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock GR\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_greece_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock HR\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_croatia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock HU\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_hungary_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IE\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_ireland_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IT-Calabria\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_calabria_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IT-Centre North\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_italy_centre_north_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IT-Centre South\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_italy_centre_south_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IT-North\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_italy_north_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IT-South\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_italy_south_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IT-Sardinia\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_sardinia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock IT-Sicily\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_sicily_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock LV\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_latvia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock LT\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_lithuania_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock NL\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_netherlands_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock NO-Oslo\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_norway_1_oslo_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock NO-Kristiansand\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_norway_2_kristiansand_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock NO-Trondheim\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_norway_3_trondheim_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock NO-Tromso\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_norway_4_tromso_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock NO-Bergen\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_norway_5_bergen_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock PL\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_poland_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock PT\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_portugal_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock RO\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_romania_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock RS\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n            `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_serbia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock SK\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_slovakia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock SI\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_slovenia_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock SE-Lulea\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_sweden_1_lulea_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock SE-Sundsvall\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_sweden_2_sundsvall_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock SE-Stockholm\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_sweden_3_stockholm_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Grid Clock SE-Malmo\":\n            // Code for Grid Clock (your own gridclock.eu service), zone NL\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_sweden_4_malmo_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Nordpool (core)\":\n            // Code for Nordpool (core/default implementation)\n            log(this, \"Processing Nordpool core data.\");\n            // Add config here...\n            msg.dynamic.sensor = 'sensor.nordpool_ceh_prices';\n            msg.dynamic.attr_today = 'today';\n            msg.dynamic.attr_tomorrow = 'tomorrow';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'value';\n            msg.dynamic.datetime_in_data = true; // datetime is in the data\n            break;\n\n      case \"Tibber (core)\":\n            // Code for Tibber (core/default implementation)\n            log(this,\"Processing Tibber core data.\");\n            // Add config here...\n            msg.dynamic.sensor = 'sensor.tibber_ceh_prices';\n            msg.dynamic.attr_today = 'today';\n            msg.dynamic.attr_tomorrow = 'tomorrow';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'value';\n            msg.dynamic.datetime_in_data = true; // datetime is in the data\n            break;\n\n      case \"Tibber (custom)\":\n            // Code for a custom Tibber setup/configuration\n            log(this,\"Processing Tibber custom data.\");\n            // Add config here...\n            msg.dynamic.attr_today = 'today';\n            msg.dynamic.attr_tomorrow = 'tomorrow';\n            msg.dynamic.datetime_in_data = false;\n            break;\n\n      case \"Nordpool (custom)\":\n            // Code for a custom Nordpool setup/configuration\n            log(this,\"Processing Nordpool custom data.\");\n            // Add config here...\n            break;\n\n      case \"PVPC (Spain)\":\n            // Code for PVPC (Voluntary Price for Small Consumers in Spain)\n            log(this,\"Processing Spanish PVPC data.\");\n            // Add config here...\n            break;\n\n      case \"Octopus Energy\":\n            // Code for Octopus Energy (UK/international energy supplier)\n            log(this,\"Processing Octopus Energy data.\");\n            // Add config here...\n            msg.dynamic.attr_all = 'rates'; \n            msg.dynamic.value_key = 'value_incl_vat';\n            break;\n\n      case \"Omie\":\n            // Code for Omie (Iberian Energy Market Operator)\n            log(this,\"Processing Omie data.\");\n            // Add config here...\n            break;\n\n      default:\n            // Code to execute if the supplier does not match any of the above cases\n            node.warn(`Unknown supplier: ${msg.dynamic.data_source}. Using default logic.`);\n            log(this,`Unknown supplier: ${msg.dynamic.data_source}. Using default logic.`);\n            // Add default error handling...\n}\n\nlog(this, \"Performing API calls...\");\n\nreturn msg;",
+        "func": "// logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\n/*    From cheapes-energy-hours macro\n      See: https://github.com/TheFes/cheapest-energy-hours/blob/main/documentation/1-source_data.md#data-provider-settings\n\n      - None (default selection)\n      - Zonneplan\n      - Amber Electric\n      - EasyEnergy, EnergyZero (core)\n      - ENTSO-E\n      - Frank Energie\n      - Grid Clock\n      - GE-Spot\n      - Grid Clock (40 bidzones)\n      - Tibber, Nordpool (core)\n      - Tibber (custom)\n      - Nordpool (custom)\n      - PVPC (Spain)\n      - Octopus Energy\n      - Omie\n*/\n\nswitch (msg.dynamic.data_source) {\n      case \"None\":\n            // Handle the 'None' case (e.g., no supplier selected or data is unavailable)\n            log(this,\"No data source selected.\");\n            // Add config here...\n            break;\n\n      case \"Zonneplan\":\n            // Code for Zonneplan (a Dutch energy supplier)\n            // when using: https://github.com/fsaris/home-assistant-zonneplan-one\n            log(this,\"Processing Zonneplan data.\");\n            // Add config here...\n            // Zonneplan publishes quarter-hourly tariffs on their own entity, with the price\n            // nested in price_tax_included.amount. A nested value can not be reached with\n            // value_key (the macro reads item[value_key]), so the list is reshaped here and\n            // handed to the macro through price_data. Needs Cheapest Energy Hours >= v6.0.0.\n            // Falls back to the legacy hourly attributes when the quarter-hourly entity is\n            // not available. Both shapes use the same 1e-7 scale, so value_conversion holds\n            // for either of them.\n            msg.dynamic.template_prefix =\n`{%- set zp = namespace(list=[]) -%}\n{%- set q = state_attr('sensor.zonneplan_current_quarter_hourly_electricity_tariff', 'forecast') -%}\n{%- for i in q or [] -%}\n{%- set zp.list = zp.list + [{'start': i['start_date'], 'price': i['price_tax_included']['amount']}] -%}\n{%- endfor -%}\n{%- if not q -%}\n{%- for i in state_attr('sensor.zonneplan_current_electricity_tariff', 'forecast') or [] -%}\n{%- set zp.list = zp.list + [{'start': i['datetime'], 'price': i['electricity_price']}] -%}\n{%- endfor -%}\n{%- endif -%}`;\n            msg.dynamic.price_data = 'zp.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            msg.dynamic.value_conversion = 10000000; // whole currency / kWh\n            break;\n\n      case \"Amber Electric\":\n            // Code for Amber Electric (Australian energy retailer)\n            log(this,\"Processing Amber Electric data.\");\n            // Add config here...\n            msg.dynamic.attr_all='forecasts'; \n            msg.dynamic.time_key='start_time'; \n            msg.dynamic.value_key='per_kwh';\n            break;\n\n      case \"EasyEnergy, EnergyZero (core)\":\n            // Code for EasyEnergy and EnergyZero (core/default implementation)\n            log(this,\"Processing EasyEnergy/EnergyZero core data.\");\n            // Add config here...\n            break;\n\n      case \"ENTSO-E\":\n            // Code for ENTSO-E (European Network of Transmission System Operators for Electricity)\n            log(this,\"Processing ENTSO-E data.\");\n            // Add config here...\n            msg.dynamic.attr_today='prices_today'; \n            msg.dynamic.attr_tomorrow='prices_tomorrow'; \n            msg.dynamic.time_key='time';\n            msg.dynamic.value_key='price';\n            break;\n\n      case \"Frank Energie\":\n            // Code for Frank Energie (Dutch energy supplier)\n            log(this,\"Processing Frank Energie data.\");\n            // Add config here...\n            msg.dynamic.sensor = 'sensor.frank_energie_prijzen_gemiddelde_elektriciteitsprijs_alle_uren_all_in'; // when using: https://github.com/HiDiHo01/home-assistant-frank_energie\n            msg.dynamic.attr_all = 'prices'; \n            msg.dynamic.time_key = 'from'; \n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"GE-Spot\":\n            // Code for GE-Spot (Global Electric Spot price)\n            log(this,\"Processing GE-Spot data.\");\n            // Add config here...\n            msg.dynamic.attr_today = 'today_hourly_prices'; // using the hourly version. today_interval_prices is per 15 mins\n            msg.dynamic.attr_tomorrow = 'tomorrow_hourly_prices'; // using the hourly version\n            msg.dynamic.time_key = 'time'; \n            msg.dynamic.value_key = 'value';\n            break;\n\n      case \"Grid Clock\":\n            // Code for Grid Clock (your own gridclock.eu service), zone Default\n            log(this, \"Processing Grid Clock data.\");\n            // 'Generate templates' below only forwards a fixed allow-list of\n            // msg.dynamic keys to the macro call - value_conversion isn't one of\n            // them, so setting it silently did nothing (confirmed: prices stayed\n            // exactly 100x too high). Grid Clock's total is ct/kWh; the macro\n            // expects EUR/kWh like the other sources. Converting it ourselves via\n            // template_prefix, the same technique the Zonneplan case above uses\n            // to reshape+convert its own raw data.\n            msg.dynamic.template_prefix =\n                  `{%- set gc = namespace(list=[]) -%}\n            {%- for i in state_attr('sensor.grid_clock_default_prices', 'prices') or [] -%}\n            {%- set gc.list = gc.list + [{'start': i['startsAt'], 'price': i['total'] / 100}] -%}\n            {%- endfor -%}`;\n            msg.dynamic.price_data = 'gc.list';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'price';\n            break;\n\n      case \"Nordpool (core)\":\n            // Code for Nordpool (core/default implementation)\n            log(this, \"Processing Nordpool core data.\");\n            // Add config here...\n            msg.dynamic.sensor = 'sensor.nordpool_ceh_prices';\n            msg.dynamic.attr_today = 'today';\n            msg.dynamic.attr_tomorrow = 'tomorrow';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'value';\n            msg.dynamic.datetime_in_data = true; // datetime is in the data\n            break;\n\n      case \"Tibber (core)\":\n            // Code for Tibber (core/default implementation)\n            log(this,\"Processing Tibber core data.\");\n            // Add config here...\n            msg.dynamic.sensor = 'sensor.tibber_ceh_prices';\n            msg.dynamic.attr_today = 'today';\n            msg.dynamic.attr_tomorrow = 'tomorrow';\n            msg.dynamic.time_key = 'start';\n            msg.dynamic.value_key = 'value';\n            msg.dynamic.datetime_in_data = true; // datetime is in the data\n            break;\n\n      case \"Tibber (custom)\":\n            // Code for a custom Tibber setup/configuration\n            log(this,\"Processing Tibber custom data.\");\n            // Add config here...\n            msg.dynamic.attr_today = 'today';\n            msg.dynamic.attr_tomorrow = 'tomorrow';\n            msg.dynamic.datetime_in_data = false;\n            break;\n\n      case \"Nordpool (custom)\":\n            // Code for a custom Nordpool setup/configuration\n            log(this,\"Processing Nordpool custom data.\");\n            // Add config here...\n            break;\n\n      case \"PVPC (Spain)\":\n            // Code for PVPC (Voluntary Price for Small Consumers in Spain)\n            log(this,\"Processing Spanish PVPC data.\");\n            // Add config here...\n            break;\n\n      case \"Octopus Energy\":\n            // Code for Octopus Energy (UK/international energy supplier)\n            log(this,\"Processing Octopus Energy data.\");\n            // Add config here...\n            msg.dynamic.attr_all = 'rates'; \n            msg.dynamic.value_key = 'value_incl_vat';\n            break;\n\n      case \"Omie\":\n            // Code for Omie (Iberian Energy Market Operator)\n            log(this,\"Processing Omie data.\");\n            // Add config here...\n            break;\n\n      default:\n            // Code to execute if the supplier does not match any of the above cases\n            node.warn(`Unknown supplier: ${msg.dynamic.data_source}. Using default logic.`);\n            log(this,`Unknown supplier: ${msg.dynamic.data_source}. Using default logic.`);\n            // Add default error handling...\n}\n\nlog(this, \"Performing API calls...\");\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -795,15 +808,15 @@
         "y": 600,
         "wires": [
             [
-                "9a08cc18f62af015"
+                "02a28003d2b8f47f"
             ]
         ]
     },
     {
-        "id": "5b9a241f21a0b52e",
+        "id": "92d7f81968e67114",
         "type": "inject",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Update strat",
         "props": [
             {
@@ -825,15 +838,15 @@
         "y": 380,
         "wires": [
             [
-                "d0e64c2351177b95"
+                "31d0d140909c39a7"
             ]
         ]
     },
     {
-        "id": "e3333d898ece4ca1",
+        "id": "5cc961e58e6a6a77",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Init",
         "func": "// Init\nmsg.dynamic = {};\nmsg.log = [];\nreturn msg;",
         "outputs": 1,
@@ -846,15 +859,15 @@
         "y": 380,
         "wires": [
             [
-                "a04e3c3f2692696c"
+                "4a62d9f1df1645f9"
             ]
         ]
     },
     {
-        "id": "9a08cc18f62af015",
+        "id": "02a28003d2b8f47f",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "Generate templates",
         "func": "// final template initialization\nmsg.dynamic.template_all = \"\";\n\n// temporary template parts\nlet template_start = \"\";\nlet template_common = [];\nlet template_all = [];\nlet template_end = \"\";\n\n// load the macro\n// A data source may inject raw Jinja through msg.dynamic.template_prefix. That is used when\n// the source data has to be reshaped before it can be handed to the macro — see the Zonneplan\n// case in 'Data source settings'.\nconst template_lines = [`{% from 'cheapest_energy_hours.jinja' import cheapest_energy_hours %}`];\nif (msg.dynamic.template_prefix) {\n    template_lines.push(msg.dynamic.template_prefix);\n}\ntemplate_lines.push(`{{ cheapest_energy_hours(`);\ntemplate_start = template_lines.join(\"\\n\") + \"\\n\";\ntemplate_end = `) | to_json }}`;\n\n// collect arguments | strings\nconst stringKeys = [\n    'sensor',\n    'attr_all',\n    'value_key',\n    'attr_today',\n    'attr_tomorrow',\n    'time_key',\n    'source_settings'\n];\n\nstringKeys.forEach(key => {\n    if (msg.dynamic[key] !== undefined) {\n        template_common.push(`${key}='${msg.dynamic[key]}'`);\n    }\n});\n\n// collect arguments | boolean, integer\nconst otherKeys = [\n    'datetime_in_data',\n    'data_minutes',\n    'price_data', // a Jinja variable name, so it must be emitted unquoted\n];\n\notherKeys.forEach(key => {\n    if (msg.dynamic[key] !== undefined) {\n        template_common.push(`${key}=${msg.dynamic[key]}`);\n    }\n});\n\n// copy common items\ntemplate_all = [...template_common];\n\n// collect all hours | via extra call\ntemplate_all.push(`hours=\"all\"`);\ntemplate_all.push(`include_tomorrow=true`);\ntemplate_all.push(`mode=\"all\"`);\n\n/**\n * Formats an array of strings into a single string:\n * - Each item starts with 4 spaces.\n * - Each item ends with a comma, except the last one.\n * - Items are separated by a newline.\n */\nfunction formatTemplateArray(array) {\n    if (!array || array.length === 0) {\n        return \"\";\n    }\n\n    const indent = \"    \"; \n\n    const formatted_lines = array.map((element, index) => {\n        const suffix = (index < array.length - 1) ? \",\" : \"\";\n        return `${indent}${element}${suffix}`;\n    });\n\n    return formatted_lines.join('\\n');\n}\n\n// generate string templates\nconst template_all_string = formatTemplateArray(template_all);\n\n// done\nmsg.dynamic.template_all = `${template_start}${template_all_string}${template_end}`;\n\nreturn msg;",
         "outputs": 1,
@@ -867,16 +880,16 @@
         "y": 600,
         "wires": [
             [
-                "d81e41101941ef72",
-                "9638bed49af9193d"
+                "34c743cc1e46f8bb",
+                "14bd437868c7c93a"
             ]
         ]
     },
     {
-        "id": "8e0c95fab2209016",
+        "id": "c7c4ed0f2bc34be9",
         "type": "change",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "Cleanup",
         "rules": [
             {
@@ -894,15 +907,15 @@
         "y": 720,
         "wires": [
             [
-                "49096de10aa0fe44"
+                "798b4c8044916eb0"
             ]
         ]
     },
     {
-        "id": "a62acf1d7de78197",
+        "id": "8df3eaceff637835",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Log: activate 'debug mode' first",
         "active": true,
         "tosidebar": true,
@@ -917,10 +930,10 @@
         "wires": []
     },
     {
-        "id": "6a44dbb8c8853e76",
+        "id": "3b9bcbd6c013cd49",
         "type": "server-state-changed",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "User input",
         "server": "176d29a.6f648d6",
         "version": 6,
@@ -978,15 +991,16 @@
         "y": 340,
         "wires": [
             [
-                "d67829866f09c3c1"
+                "5d8c4ff517b7231a"
             ]
-        ]
+        ],
+        "info": "Recalculates `flow.dynamic_strategy` when a Dynamic setting changes.\n\n**Local change 2026-10-26:** the three period selectors (`..._dynamic_default`, `..._dynamic_cheapest`, `..._dynamic_expensive`) were added, so a new period strategy applies at once instead of at the next 15-min tick. See *📖 How this flow works*."
     },
     {
-        "id": "ba69c5e0a5ceae65",
+        "id": "371deb7239494156",
         "type": "switch",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Source selected?",
         "property": "dynamic.data_source",
         "propertyType": "msg",
@@ -1007,19 +1021,19 @@
         "y": 380,
         "wires": [
             [
-                "1c03bd44e3b01b8b"
+                "8be3768cc4ffc143"
             ],
             [
-                "83516f81939c0da1"
+                "477e40251647ce80"
             ]
         ],
         "l": false
     },
     {
-        "id": "6e2bc646f6a4111e",
+        "id": "0b320b2fdeaab5b4",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Not set",
         "active": true,
         "tosidebar": false,
@@ -1034,10 +1048,10 @@
         "wires": []
     },
     {
-        "id": "1c03bd44e3b01b8b",
+        "id": "8be3768cc4ffc143",
         "type": "change",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Set dynamic strategy to null",
         "rules": [
             {
@@ -1045,6 +1059,13 @@
                 "p": "dynamic_strategy",
                 "pt": "flow",
                 "to": "null",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "dynamic.data_all",
+                "pt": "msg",
+                "to": "{\"list\": [], \"list_marked\": [], \"average\": 0, \"mark_now\": \"No data\", \"start\": \"Unknown\", \"datapoints_per_hour\": 0, \"net_spread_avg\": 0, \"gross_spread_avg\": 0}",
                 "tot": "json"
             }
         ],
@@ -1057,15 +1078,16 @@
         "y": 340,
         "wires": [
             [
-                "6e2bc646f6a4111e"
+                "0b320b2fdeaab5b4",
+                "8b9a7ed557603f0a"
             ]
         ]
     },
     {
-        "id": "9a24dac328094f20",
+        "id": "858ef33644736f7f",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "ebc420e9e86347a0",
+        "z": "529f2156e8126e89",
+        "g": "d66a8fa1349b1be0",
         "name": "All data",
         "active": true,
         "tosidebar": true,
@@ -1076,14 +1098,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 700,
-        "y": 1700,
+        "y": 1320,
         "wires": []
     },
     {
-        "id": "018f5f2bb191c55b",
+        "id": "2f1a906278ed3a65",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "25cff1b8ee88f765",
+        "z": "529f2156e8126e89",
+        "g": "96d63a4eed681faa",
         "name": "Complete msg",
         "active": true,
         "tosidebar": true,
@@ -1094,14 +1116,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1020,
-        "y": 1520,
+        "y": 1140,
         "wires": []
     },
     {
-        "id": "55d847ca7621469e",
+        "id": "ebf4d99c59604791",
         "type": "change",
-        "z": "20ec23eabb703f8e",
-        "g": "756b9c35c89b1e52",
+        "z": "529f2156e8126e89",
+        "g": "9053e13a25f81961",
         "name": "Trace",
         "rules": [
             {
@@ -1121,16 +1143,16 @@
         "y": 200,
         "wires": [
             [
-                "cd1b8b7c53143f80"
+                "213be3ce5cf2f950"
             ]
         ],
         "info": "Attaches a breadcrumb trace to the msg\r\nso the user can reconstruct which route has\r\nbeen traveled"
     },
     {
-        "id": "39d6eaa9d33c62b6",
+        "id": "71e2439f4d4c9680",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "693e2c5fe694d14d",
+        "z": "529f2156e8126e89",
+        "g": "f1449e32f10bd2db",
         "name": "Selected",
         "func": "// Logger\nconst log = global.get(\"logger\");\nlog(this,`${msg.target} strategy`);\n\n// Status\nnode.status({fill:\"green\",shape:\"dot\",text:`${msg.target}`});\n\nreturn msg;",
         "outputs": 1,
@@ -1143,15 +1165,15 @@
         "y": 180,
         "wires": [
             [
-                "4d98c4c9c30982d5"
+                "2a94de18e64ef60e"
             ]
         ]
     },
     {
-        "id": "adfa78e19d085fa7",
+        "id": "edf95baf2751f513",
         "type": "catch",
-        "z": "20ec23eabb703f8e",
-        "g": "c9a3b480ecbadded",
+        "z": "529f2156e8126e89",
+        "g": "cfa9f2ed12a5b1e3",
         "name": "",
         "scope": null,
         "uncaught": true,
@@ -1159,16 +1181,16 @@
         "y": 320,
         "wires": [
             [
-                "429120a570738a8d"
+                "1b02595533618e2d"
             ]
         ],
         "l": false
     },
     {
-        "id": "429120a570738a8d",
+        "id": "1b02595533618e2d",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "c9a3b480ecbadded",
+        "z": "529f2156e8126e89",
+        "g": "cfa9f2ed12a5b1e3",
         "name": "Unhandled Exception",
         "func": "// Log unhandled exception\nconst handle = global.get('unhandledException');\nif(handle) handle(this);\n\n// Check origin of msg execution\nif (msg._linkSource) {\n    return msg; // Origin: some other flow\n} else {\n    return null; // Origin: this flow. Stop to prevent 'Missing return' warning\n}",
         "outputs": 1,
@@ -1181,16 +1203,16 @@
         "y": 320,
         "wires": [
             [
-                "6cdc2077d401103e"
+                "6ca28aad04117336"
             ]
         ],
         "l": false
     },
     {
-        "id": "6cdc2077d401103e",
+        "id": "6ca28aad04117336",
         "type": "link out",
-        "z": "20ec23eabb703f8e",
-        "g": "c9a3b480ecbadded",
+        "z": "529f2156e8126e89",
+        "g": "cfa9f2ed12a5b1e3",
         "name": "link out 5",
         "mode": "return",
         "links": [],
@@ -1199,10 +1221,10 @@
         "wires": []
     },
     {
-        "id": "2699506db55ef89b",
+        "id": "498be65894cc1a0f",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Strategy default",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -1245,15 +1267,15 @@
         "y": 880,
         "wires": [
             [
-                "cf1d6a558a11724b"
+                "82d931d96988e45b"
             ]
         ]
     },
     {
-        "id": "cf1d6a558a11724b",
+        "id": "82d931d96988e45b",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Strategy cheapest",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -1296,15 +1318,15 @@
         "y": 920,
         "wires": [
             [
-                "8a78642dab3e5e0b"
+                "63018bf392999e01"
             ]
         ]
     },
     {
-        "id": "8a78642dab3e5e0b",
+        "id": "63018bf392999e01",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Strategy expensive",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -1347,17 +1369,17 @@
         "y": 960,
         "wires": [
             [
-                "635f84d533e55fe7"
+                "988c82ea1fd664a4"
             ]
         ]
     },
     {
-        "id": "49096de10aa0fe44",
+        "id": "798b4c8044916eb0",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "Cache data source",
-        "func": "// logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\nconst dynamicData = msg.dynamic;\n\n// Helper to check for errors in the object\nconst isInvalid = (data) => {\n    if (!data) return true;\n    // Check if the stringified object contains \"error\"\n    return JSON.stringify(data).toLowerCase().includes(\"error\");\n};\n\nif (isInvalid(dynamicData)) {\n    // Explain issue\n    log(this, \"Invalid data received, clearing cache\", \"warn\");\n    // Clear cache\n    flow.set(\"cached_dynamic_data\", undefined);\n} else {\n    // Cache on success\n    log(this, \"Caching `msg.dynamic`\");\n    // Save the entire object to flow context\n    flow.set(\"cached_dynamic_data\", dynamicData);\n}\n\nreturn msg;",
+        "func": "// logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\nconst dynamicData = msg.dynamic;\n\n// Helper to check for errors in the object\nconst isInvalid = (data) => {\n    if (!data) return true;\n    // Check if the stringified object contains \"error\"\n    return JSON.stringify(data).toLowerCase().includes(\"error\");\n};\n\nif (isInvalid(dynamicData) || (dynamicData && dynamicData.no_data)) {\n    // Explain issue\n    log(this, \"Invalid data received, clearing cache\", \"warn\");\n    // Clear cache\n    flow.set(\"cached_dynamic_data\", undefined);\n} else {\n    // Cache on success\n    log(this, \"Caching `msg.dynamic`\");\n    // Save the entire object to flow context\n    flow.set(\"cached_dynamic_data\", dynamicData);\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1368,15 +1390,15 @@
         "y": 720,
         "wires": [
             [
-                "08d1c06448030df3"
+                "f26dca875378b7ea"
             ]
         ]
     },
     {
-        "id": "0a462b258abad766",
+        "id": "7cfefa83661a5c40",
         "type": "catch",
-        "z": "20ec23eabb703f8e",
-        "g": "fe1bbfe90210ee30",
+        "z": "529f2156e8126e89",
+        "g": "cc100ed25df15645",
         "name": "Catch group",
         "scope": "group",
         "uncaught": false,
@@ -1384,15 +1406,15 @@
         "y": 580,
         "wires": [
             [
-                "58c11d1f75888796"
+                "cc8776bce3ac59b4"
             ]
         ]
     },
     {
-        "id": "3c01cea5a47f5a4d",
+        "id": "4dbb60255d5e4558",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "fe1bbfe90210ee30",
+        "z": "529f2156e8126e89",
+        "g": "cc100ed25df15645",
         "name": "Strategy errors",
         "active": true,
         "tosidebar": true,
@@ -1407,10 +1429,10 @@
         "wires": []
     },
     {
-        "id": "89b9ad4a981b58af",
+        "id": "850a6d6cf5f019a8",
         "type": "comment",
-        "z": "20ec23eabb703f8e",
-        "g": "fe1bbfe90210ee30",
+        "z": "529f2156e8126e89",
+        "g": "cc100ed25df15645",
         "name": "Cheapest Energy Hours - errors",
         "info": "\"No valid sensor found\" if price_data is none and not valid_sensor,\n\"No valid data in {}\".format(sensor) if price_data is none and data == [] and valid_sensor,\n\"No valid data in provided price_data\" if price_data is not none and not valid_price_data,\n\"Time key '{}' not found in data\".format(time_key) if data and time_key not in data[0],\n\"Value key '{}' not found in data\".format(value_key) if data and value_key not in data[0],\n\"Invalid mode '{}' selected\".format(mode) if mode not in modes,\n\"Boolean input expected for include_today, '{}' can not be processed as a boolean\".format(include_today) if include_today | bool(\"\") is not boolean,\n\"Boolean input expected for include_tomorrow, '{}' can not be processed as a boolean\".format(include_tomorrow) if include_tomorrow | bool(\"\") is not boolean,\n\"Boolean input expected for look_ahead, '{}' can not be processed as a boolean\".format(look_ahead) if look_ahead | bool(\"\") is not boolean,\n\"Boolean input expected for lowest, '{}' can not be processed as a boolean\".format(lowest) if lowest | bool(\"\") is not boolean,\n\"Boolean input expected for latest_possible, '{}' can not be processed as a boolean\".format(latest_possible) if latest_possible | bool(\"\") is not boolean,\n\"Numeric input or percentage expected for price_tolerance, '{}' can not be processed as a float or percentage\".format(price_tolerance) if not valid_pt,\n\"Numeric input expected for kwh, '{}' can not be processed as a float\".format(kwh) if kwh is not none and not kwh | is_number,\n\"Selected program '{}' is not available or has no data\".format(program) if program is not none and w is none,\n\"Selected start parameter is after the end parameter\" if start_end and data,\n\"{} hours between start and end, where {} hours are required\".format(end_start, h | round(3)) if not start_end and end_start < h | round(3) and data,\n\"Invalid combination of source data points per hour '{}' and number of weight points '{}'\".format(dp, dph) if all_keys and not wp_check",
         "x": 1150,
@@ -1418,10 +1440,10 @@
         "wires": []
     },
     {
-        "id": "58c11d1f75888796",
+        "id": "cc8776bce3ac59b4",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "fe1bbfe90210ee30",
+        "z": "529f2156e8126e89",
+        "g": "cc100ed25df15645",
         "name": "Unhandled Exception",
         "func": "const handle = global.get('unhandledException');\n\nhandle(this);\n\nreturn msg;",
         "outputs": 1,
@@ -1434,16 +1456,16 @@
         "y": 580,
         "wires": [
             [
-                "3c01cea5a47f5a4d"
+                "4dbb60255d5e4558"
             ]
         ],
         "l": false
     },
     {
-        "id": "83516f81939c0da1",
+        "id": "477e40251647ce80",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Cache check",
         "func": "// Check if cache can be used or a new call to Data Source is required\nconst log = global.get('logger');\n\n// Retrieve stored data from flow context\nconst cachedData = flow.get(\"cached_dynamic_data\");\n\n// The cache holds the fetched price list itself, so it is only valid for the data\n// source it was fetched from. msg.dynamic.data_source is the CURRENT dropdown value\n// (set by the 'Source' node just before); cachedData.data_source is the value at the\n// time of caching. Without this check, switching the dropdown kept serving the old\n// source's prices until the next scheduled cache clear (00:01 / 13:15 / 15:00),\n// while the dashboard label already showed the new source.\nconst currentSource = msg.dynamic && msg.dynamic.data_source;\nconst sourceMatches = cachedData && cachedData.data_source === currentSource;\n\nif (cachedData && !sourceMatches) {\n    log(this, `*CACHE INVALID* cached source '${cachedData.data_source}' != selected '${currentSource}', refetching`);\n    flow.set(\"cached_dynamic_data\", undefined);\n}\n\n// After 13:00 the cache only counts if it already covers tomorrow.\n// Day-ahead prices arrive somewhere after ~13:00; without this, a list fetched\n// at 13:16 (before publication) was reused until the 15:01 or 00:01 cache clear,\n// so the Timed/Dynamic view showed no prices for tomorrow while the source had them.\nconst coversTomorrow = (c) => {\n    const a = c && c.data_all;\n    if (!a || !a.start || !a.hours) return false;\n    const end = new Date(new Date(a.start).getTime() + a.hours * 3_600_000);\n    const midnight = new Date();\n    midnight.setHours(24, 0, 0, 0);\n    return end > midnight;\n};\nconst awaitingTomorrow = new Date().getHours() >= 13 && !coversTomorrow(cachedData);\n\n// Determine cache hit\nif (cachedData && sourceMatches && !awaitingTomorrow) {\n    // Cache HIT\n    node.status({ fill: \"green\", shape: \"dot\", text: `Cache hit (${currentSource})` });\n    log(this, `*CACHE HIT* using stored tariff data (${currentSource})`);\n\n    // Attach cached data to the message so following nodes can use it\n    msg.dynamic = cachedData;\n\n    // Output #1\n    return [msg, null];\n\n} else {\n    // Cache MISS (no cache, other source, or still waiting for tomorrow's prices)\n    if (awaitingTomorrow && cachedData && sourceMatches) {\n        log(this, \"*CACHE STALE* no prices for tomorrow yet, refetching\");\n    }\n    node.status({ fill: \"yellow\", shape: \"ring\", text: awaitingTomorrow && cachedData ? `Waiting for tomorrow (${currentSource})` : `Cache miss (${currentSource})` });\n\n    // Output #2\n    return [null, msg];\n}\n",
         "outputs": 2,
@@ -1456,10 +1478,10 @@
         "y": 420,
         "wires": [
             [
-                "3a032aa2f9b55ccc"
+                "8cf5c4bb1bd3df3f"
             ],
             [
-                "670da8cf93d31473"
+                "10c1b643bff0483b"
             ]
         ],
         "outputLabels": [
@@ -1468,87 +1490,87 @@
         ]
     },
     {
-        "id": "3a032aa2f9b55ccc",
+        "id": "8cf5c4bb1bd3df3f",
         "type": "link out",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "from Cache Check ok",
         "mode": "link",
         "links": [
-            "d420dcd81ba3def6"
+            "db5bf9bac3268cf9"
         ],
         "x": 1335,
         "y": 400,
         "wires": []
     },
     {
-        "id": "c03c1f589a980c31",
+        "id": "1465c46545d24043",
         "type": "link in",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
-        "name": "link Fetch from Data Source",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
+        "name": "Dynamic Fetch from Data Source",
         "links": [
-            "670da8cf93d31473"
+            "10c1b643bff0483b"
         ],
         "x": 295,
         "y": 560,
         "wires": [
             [
-                "1a77d0807a9aad0b"
+                "a3deceddc350d343"
             ]
         ]
     },
     {
-        "id": "670da8cf93d31473",
+        "id": "10c1b643bff0483b",
         "type": "link out",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "from Cache Check NoK",
         "mode": "link",
         "links": [
-            "c03c1f589a980c31"
+            "1465c46545d24043"
         ],
         "x": 1335,
         "y": 440,
         "wires": []
     },
     {
-        "id": "d420dcd81ba3def6",
+        "id": "db5bf9bac3268cf9",
         "type": "link in",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "link Determine Strategy",
         "links": [
-            "08d1c06448030df3",
-            "3a032aa2f9b55ccc"
+            "34a6be64fcce3dc8",
+            "8cf5c4bb1bd3df3f"
         ],
         "x": 295,
         "y": 840,
         "wires": [
             [
-                "2699506db55ef89b"
+                "498be65894cc1a0f"
             ]
         ]
     },
     {
-        "id": "08d1c06448030df3",
+        "id": "34a6be64fcce3dc8",
         "type": "link out",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "link out 12",
         "mode": "link",
         "links": [
-            "d420dcd81ba3def6"
+            "db5bf9bac3268cf9"
         ],
-        "x": 635,
-        "y": 720,
+        "x": 875,
+        "y": 740,
         "wires": []
     },
     {
-        "id": "9673f13e78ee1c82",
+        "id": "e6bb771004a85c15",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Clear Cache",
         "func": "// Clear cache\nflow.set(\"cached_dynamic_data\", undefined);\nreturn msg;",
         "outputs": 1,
@@ -1561,16 +1583,16 @@
         "y": 420,
         "wires": [
             [
-                "d0e64c2351177b95"
+                "31d0d140909c39a7"
             ]
         ],
         "l": false
     },
     {
-        "id": "61c3b77a6cd4ad02",
+        "id": "38d5818ee29a7c83",
         "type": "ha-fire-event",
-        "z": "20ec23eabb703f8e",
-        "g": "ebc420e9e86347a0",
+        "z": "529f2156e8126e89",
+        "g": "d66a8fa1349b1be0",
         "name": "",
         "server": "176d29a.6f648d6",
         "version": 0,
@@ -1578,16 +1600,16 @@
         "data": "msg.all_data",
         "dataType": "jsonata",
         "x": 760,
-        "y": 1760,
+        "y": 1380,
         "wires": [
             []
         ]
     },
     {
-        "id": "5e92656d2b701637",
+        "id": "ccd735469ef44107",
         "type": "api-render-template",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "All",
         "server": "176d29a.6f648d6",
         "version": 0,
@@ -1600,15 +1622,15 @@
         "y": 660,
         "wires": [
             [
-                "777bddce94736779"
+                "22ab9a461e573d10"
             ]
         ]
     },
     {
-        "id": "777bddce94736779",
+        "id": "22ab9a461e573d10",
         "type": "json",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "",
         "property": "dynamic.data_all",
         "action": "obj",
@@ -1617,16 +1639,16 @@
         "y": 660,
         "wires": [
             [
-                "97f11b16b85d92b3"
+                "f5cec25ae1fa2f1b"
             ]
         ],
         "l": false
     },
     {
-        "id": "9638bed49af9193d",
+        "id": "14bd437868c7c93a",
         "type": "change",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "Set",
         "rules": [
             {
@@ -1646,15 +1668,15 @@
         "y": 660,
         "wires": [
             [
-                "5e92656d2b701637"
+                "ccd735469ef44107"
             ]
         ]
     },
     {
-        "id": "126b36990fc3a1a1",
+        "id": "8b9a7ed557603f0a",
         "type": "ha-fire-event",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Update energy prices",
         "server": "176d29a.6f648d6",
         "version": 0,
@@ -1668,10 +1690,10 @@
         ]
     },
     {
-        "id": "d81e41101941ef72",
+        "id": "34c743cc1e46f8bb",
         "type": "debug",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "Template all",
         "active": false,
         "tosidebar": true,
@@ -1686,12 +1708,12 @@
         "wires": []
     },
     {
-        "id": "97f11b16b85d92b3",
+        "id": "f5cec25ae1fa2f1b",
         "type": "function",
-        "z": "20ec23eabb703f8e",
-        "g": "fbb20c68222f37b0",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
         "name": "Convert price",
-        "func": "// logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\n// Conversion\nconst CONVERSION_RATE = parseFloat(RED.util.getMessageProperty(msg, \"dynamic.value_conversion\")) || 1;\n\n// Check if the list exists and is an array to prevent errors\nif (msg.dynamic && msg.dynamic.data_all && Array.isArray(msg.dynamic.data_all.list)) {\n    \n    // Create a new array where each value is multiplied\n    if (Array.isArray(msg.dynamic.data_all?.list)) {\n        msg.dynamic.data_all.list = msg.dynamic.data_all.list.map(v => v / CONVERSION_RATE * 100); // cents\n    }\n\n    // Update other fields\n    if (msg.dynamic.data_all?.average) {\n        msg.dynamic.data_all.average = parseInt(msg.dynamic.data_all.average / CONVERSION_RATE * 100); // cents\n    }\n    if (msg.dynamic.data_all?.weighted_average){\n        msg.dynamic.data_all.weighted_average = parseInt(msg.dynamic.data_all.weighted_average / CONVERSION_RATE * 100); // cents\n    }\n    if (msg.dynamic.data_all?.min) {\n        msg.dynamic.data_all.min = parseInt(msg.dynamic.data_all.min / CONVERSION_RATE * 100); // cents\n    }\n    if (msg.dynamic.data_all?.max) {\n        msg.dynamic.data_all.max = parseInt(msg.dynamic.data_all.max / CONVERSION_RATE * 100); // cents\n    }\n} else {\n    // Do not continue\n    log(this,\"*price data not updated* price data missing\");\n    return null;\n}\n\nreturn msg;",
+        "func": "// logger, usage: log(this, \"\");\nconst log = global.get('logger');\n\n// Conversion\nconst CONVERSION_RATE = parseFloat(RED.util.getMessageProperty(msg, \"dynamic.value_conversion\")) || 1;\n\n// Check if the list exists and is an array to prevent errors\nif (msg.dynamic && msg.dynamic.data_all && Array.isArray(msg.dynamic.data_all.list)) {\n    \n    // Create a new array where each value is multiplied\n    if (Array.isArray(msg.dynamic.data_all?.list)) {\n        msg.dynamic.data_all.list = msg.dynamic.data_all.list.map(v => v / CONVERSION_RATE * 100); // cents\n    }\n\n    // Update other fields\n    if (msg.dynamic.data_all?.average) {\n        msg.dynamic.data_all.average = parseInt(msg.dynamic.data_all.average / CONVERSION_RATE * 100); // cents\n    }\n    if (msg.dynamic.data_all?.weighted_average){\n        msg.dynamic.data_all.weighted_average = parseInt(msg.dynamic.data_all.weighted_average / CONVERSION_RATE * 100); // cents\n    }\n    if (msg.dynamic.data_all?.min) {\n        msg.dynamic.data_all.min = parseInt(msg.dynamic.data_all.min / CONVERSION_RATE * 100); // cents\n    }\n    if (msg.dynamic.data_all?.max) {\n        msg.dynamic.data_all.max = parseInt(msg.dynamic.data_all.max / CONVERSION_RATE * 100); // cents\n    }\n} else {\n    // No usable price data from the selected source (integration missing, sensor empty,\n    // macro error). Publish an EMPTY set instead of stopping: stopping left the previous\n    // source's prices on sensor.hbc_energy_prices_data, so the chart kept showing them.\n    // 'Cache data source' does not cache this, so the next run tries the source again.\n    log(this, \"*no price data* from the selected data source - publishing an empty set\", \"warn\");\n    msg.dynamic = msg.dynamic || {};\n    msg.dynamic.no_data = true;\n    msg.dynamic.data_all = { list: [], list_marked: [], average: 0, mark_now: 'No data', start: 'Unknown', datapoints_per_hour: 0, net_spread_avg: 0, gross_spread_avg: 0 };\n}\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1702,15 +1724,15 @@
         "y": 660,
         "wires": [
             [
-                "8e0c95fab2209016"
+                "c7c4ed0f2bc34be9"
             ]
         ]
     },
     {
-        "id": "27a41299df654ba4",
+        "id": "0deee5c5a2ed7802",
         "type": "inject",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Test",
         "props": [
             {
@@ -1732,15 +1754,15 @@
         "y": 460,
         "wires": [
             [
-                "fe2525c450bedc78"
+                "9d9d1775626437ca"
             ]
         ]
     },
     {
-        "id": "fe2525c450bedc78",
+        "id": "9d9d1775626437ca",
         "type": "api-call-service",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Debug ON",
         "server": "176d29a.6f648d6",
         "version": 7,
@@ -1773,15 +1795,15 @@
         "y": 460,
         "wires": [
             [
-                "9673f13e78ee1c82"
+                "e6bb771004a85c15"
             ]
         ]
     },
     {
-        "id": "d0e64c2351177b95",
+        "id": "31d0d140909c39a7",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Strat",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -1818,15 +1840,15 @@
         "y": 380,
         "wires": [
             [
-                "e3333d898ece4ca1"
+                "5cc961e58e6a6a77"
             ]
         ]
     },
     {
-        "id": "635f84d533e55fe7",
+        "id": "988c82ea1fd664a4",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Threshold delta",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -1869,15 +1891,15 @@
         "y": 880,
         "wires": [
             [
-                "c4bddc6849f4345a"
+                "4520c17cbdaa32cb"
             ]
         ]
     },
     {
-        "id": "c4bddc6849f4345a",
+        "id": "4520c17cbdaa32cb",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Cheapest N hrs",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -1920,15 +1942,15 @@
         "y": 920,
         "wires": [
             [
-                "615e2655b96645d8"
+                "c6e07044ab6faba5"
             ]
         ]
     },
     {
-        "id": "615e2655b96645d8",
+        "id": "c6e07044ab6faba5",
         "type": "api-current-state",
-        "z": "20ec23eabb703f8e",
-        "g": "feb03fe9e30dd773",
+        "z": "529f2156e8126e89",
+        "g": "a9880de736174140",
         "name": "Expensive N hrs",
         "server": "176d29a.6f648d6",
         "version": 3,
@@ -1971,15 +1993,15 @@
         "y": 960,
         "wires": [
             [
-                "dad3e8661cdb5205"
+                "fc6d54263dd8f5d4"
             ]
         ]
     },
     {
-        "id": "f5500efe9808a53c",
+        "id": "61e64ccb45c0167f",
         "type": "inject",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Clear cache",
         "props": [
             {
@@ -2001,15 +2023,15 @@
         "y": 420,
         "wires": [
             [
-                "1a2e7e6dc4f358af"
+                "359e49e7dc60c5e6"
             ]
         ]
     },
     {
-        "id": "b687e3a469a7d004",
+        "id": "a68ead022ea65f5b",
         "type": "inject",
-        "z": "20ec23eabb703f8e",
-        "g": "f8599c8b4feddc74",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
         "name": "Midnight",
         "props": [
             {
@@ -2031,25 +2053,102 @@
         "y": 420,
         "wires": [
             [
-                "1a2e7e6dc4f358af"
+                "359e49e7dc60c5e6"
             ]
         ]
     },
     {
-        "id": "c0a6221d2b72cb4d",
+        "id": "hbcrefreshevt001",
+        "type": "server-events",
+        "z": "529f2156e8126e89",
+        "g": "c59401c3aa9afd81",
+        "name": "Refresh prices (event)",
+        "server": "176d29a.6f648d6",
+        "version": 3,
+        "exposeAsEntityConfig": "",
+        "eventType": "hbc_refresh_energy_prices",
+        "eventData": "",
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "x": 800,
+        "y": 460,
+        "wires": [
+            [
+                "e6bb771004a85c15"
+            ]
+        ],
+        "info": "Local change 2026-10-31: generic hook. Fire the HA event `hbc_refresh_energy_prices` to drop the cached price list and re-run Dynamic straight away, e.g. when the data behind the selected tariff source changes (another bidding zone, a re-configured integration). The flow does not care which source sent it; source-specific triggers live in Home Assistant (see packages/house_battery_control_config.yaml)."
+    },
+    {
+        "id": "8344a58ae06daa27",
         "type": "link in",
-        "z": "20ec23eabb703f8e",
-        "g": "756b9c35c89b1e52",
+        "z": "529f2156e8126e89",
+        "g": "9053e13a25f81961",
         "name": "Dynamic",
         "links": [],
         "x": 100,
         "y": 240,
         "wires": [
             [
-                "55d847ca7621469e"
+                "ebf4d99c59604791"
             ]
         ],
         "l": true
+    },
+    {
+        "id": "f26dca875378b7ea",
+        "type": "switch",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
+        "name": "Called via Link Call?",
+        "property": "_linkSource",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 720,
+        "y": 720,
+        "wires": [
+            [
+                "f2202518adc7aeba"
+            ],
+            [
+                "34a6be64fcce3dc8"
+            ]
+        ]
+    },
+    {
+        "id": "f2202518adc7aeba",
+        "type": "link out",
+        "z": "529f2156e8126e89",
+        "g": "ddefcc90a871b894",
+        "name": "Return to caller",
+        "mode": "return",
+        "links": [],
+        "x": 875,
+        "y": 700,
+        "wires": []
     },
     {
         "id": "176d29a.6f648d6",
@@ -2066,7 +2165,7 @@
         "enableGlobalContextStore": true
     },
     {
-        "id": "58ccb967243c4582",
+        "id": "c5aa2b1b6a1c562a",
         "type": "global-config",
         "env": [],
         "modules": {

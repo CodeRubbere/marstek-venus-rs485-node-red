@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=http://schemas.home-assistant.io/configuration
 # This file contains the core entities of the House Battery Control.
 # It should be included in the main configuration.yaml file as a `package` via `!include_dir_named` https://www.home-assistant.io/docs/configuration/packages/.
 # Replace this file when updating `House Battery Control`.
@@ -690,6 +691,7 @@ input_select:
       - Sell # Discharge batteries
       - Zero import # Use battery to prevent grid import, surplus PV exports to grid
       - Standby / peak shave # Standby, peak shave only. Requires power limits to be set!
+      - Helios
     icon: mdi:home-battery
 
   # EV stop trigger strategy
@@ -779,46 +781,7 @@ input_select:
       - EasyEnergy, EnergyZero (core)
       - ENTSO-E
       - Frank Energie
-      - Grid Clock AT
-      - Grid Clock BE
-      - Grid Clock CH
-      - Grid Clock BG
-      - Grid Clock CZ
-      - Grid Clock DE-LU
-      - Grid Clock DK-East
-      - Grid Clock DK-West
-      - Grid Clock EE
-      - Grid Clock FI
-      - Grid Clock FR
-      - Grid Clock GR
-      - Grid Clock HR
-      - Grid Clock HU
-      - Grid Clock IE
-      - Grid Clock IT-Calabria
-      - Grid Clock IT-Centre North
-      - Grid Clock IT-Centre South
-      - Grid Clock IT-North
-      - Grid Clock IT-South
-      - Grid Clock IT-Sardinia
-      - Grid Clock IT-Sicily
-      - Grid Clock LV
-      - Grid Clock LT
-      - Grid Clock NL
-      - Grid Clock NO-Oslo
-      - Grid Clock NO-Kristiansand
-      - Grid Clock NO-Trondheim
-      - Grid Clock NO-Tromso
-      - Grid Clock NO-Bergen
-      - Grid Clock PL
-      - Grid Clock PT
-      - Grid Clock RO
-      - Grid Clock RS
-      - Grid Clock SK
-      - Grid Clock SI
-      - Grid Clock SE-Lulea
-      - Grid Clock SE-Sundsvall
-      - Grid Clock SE-Stockholm
-      - Grid Clock SE-Malmo
+      - Grid Clock
       - GE-Spot
       - Tibber (core)
       - Tibber (custom)
@@ -1232,6 +1195,8 @@ recorder:
       - sensor.deadline_cheap_blocks
       # Display string that follows SoC, so it changes constantly and means nothing as history
       - sensor.deadline_goal_progress
+      # Display-only projection written by the Charge Deadline flow; no history value
+      - input_number.house_battery_deadline_planned_energy
       # Full price list + per-quarter marks as attributes (~192 entries). is_now moves every
       # run, so each 15-min update stored a new copy of the whole list. Cards read the
       # current attributes only (apexcharts data_generator), never its history.
